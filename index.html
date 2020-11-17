@@ -1,0 +1,2749 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<title>Membership | Geetika Saigal</title>
+    <link rel="stylesheet" href="./dist/style.css">
+
+	<link rel="icon" href="img/favicon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sacramento&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7COpen+Sans&amp;display=swap">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/jquery.mb.YTPlayer.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
+    <link rel="stylesheet" href="css/custom.css?2974">
+
+<style type="text/css">
+		.razorpay-payment-button {
+			min-width: 300px;
+			min-height: 60px;
+			font-size: 22px;
+			text-transform: uppercase;
+			letter-spacing: 1.3px;
+			font-weight: 700;
+			color: #fff;
+			border: 2px solid #fd1a49;
+			background: linear-gradient(90deg, #fd1a49 0%, #fd1a49 100%);
+			box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+			box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+			transition: all 0.3s ease-in-out 0s;
+			cursor: pointer;
+			outline: none;
+			position: relative;
+			padding: 10px;
+		}
+		.timeline-item {
+			border: 1px thin black;
+		}
+		.timeline-item > header {
+			padding: 0.5em 0;
+			padding: 10px;
+			font-weight: 800;
+			text-transform: uppercase;
+		}
+		.timeline-item > p {
+			padding: 10px;
+		}
+		.timeline {
+			position: relative;
+			padding-left: 80px;
+		}
+		.img-fluid1 {
+			width:20%;
+		}
+		.timeline .timeline-item {
+			margin-bottom: 50px;
+			font-size: 1.8rem;
+		}
+		.timeline::before {
+			content: '';
+			background: grey;
+			display: inline-block;
+			position: absolute;
+			left: 34px;
+			width: 1px;
+			height: 100%;
+			z-index: -1;
+		}
+		.timeline-item::before {
+			content: '';
+			background: white;
+			border: 1px solid rgb(255 38 38);
+			border-radius: 10px;
+			display: inline-block;
+			position: absolute;
+			margin-top: 25px;
+			left: 26px;
+			width: 15px;
+			height: 15px;
+			z-index: -1;
+		}
+		.timeline-item:hover::before {
+			background: rgb(255, 167, 38);
+		}
+		.button {
+			width: 200px;
+			height: 70px;
+			background: linear-gradient(to left top, #057856 50%, var(--teal) 50%);
+			border-style: none;
+			color: #fff;
+			font-size: 36px;
+			letter-spacing: 3px;
+			font-family: 'Lato';
+			font-weight: 600;
+			outline: none;
+			cursor: pointer;
+			text-align: center;
+			position: relative;
+			padding: 0px;
+			overflow: hidden;
+			transition: all .5s;
+			box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+		}
+		.button span{
+			position: absolute;
+			display: block;
+		}
+		.button span:nth-child(1){
+			height: 3px;
+			width:200px;
+			top:0px;
+			left:-200px;
+			background: linear-gradient(to right, rgba(0,0,0,0), #f6e58d);
+			border-top-right-radius: 1px;
+			border-bottom-right-radius: 1px;
+			animation: span1 2s linear infinite;
+			animation-delay: 1s;
+		}
+		.font-oswald {
+			font-family: 'Oswald', sans-serif !important;
+			text-transform: uppercase;
+		}
+		.font-roboto {
+			font-family: 'Roboto', sans-serif !important;
+		}
+		@keyframes span1 {
+			0%{
+				left:-200px
+			}
+			100%{
+				left:200px;
+			}
+		}
+		.button span:nth-child(2){
+			height: 70px;
+			width: 3px;
+			top:-70px;
+			right:0px;
+			background: linear-gradient(to bottom, rgba(0,0,0,0), #f6e58d);
+			border-bottom-left-radius: 1px;
+			border-bottom-right-radius: 1px;
+			animation: span2 2s linear infinite;
+			animation-delay: 2s;
+		}
+		@keyframes span2{
+			0%{
+				top:-70px;
+			}
+			100%{
+				top:70px;
+			}
+		}
+		.button span:nth-child(3){
+			height:3px;
+			width:200px;
+			right:-200px;
+			bottom: 0px;
+			background: linear-gradient(to left, rgba(0,0,0,0), #f6e58d);
+			border-top-left-radius: 1px;
+			border-bottom-left-radius: 1px;
+			animation: span3 2s linear infinite;
+			animation-delay: 3s;
+		}
+		@keyframes span3{
+			0%{
+				right:-200px;
+			}
+			100%{
+				right: 200px;
+			}
+		}
+		.button span:nth-child(4){
+			height:70px;
+			width:3px;
+			bottom:-70px;
+			left:0px;
+			background: linear-gradient(to top, rgba(0,0,0,0), #f6e58d);
+			border-top-right-radius: 1px;
+			border-top-left-radius: 1px;
+			animation: span4 2s linear infinite;
+			animation-delay: 4s;
+		}
+		@keyframes span4{
+			0%{
+				bottom: -70px;
+			}
+			100%{
+				bottom:70px;
+			}
+		}
+		.button:hover{
+			transition: all .5s;
+			transform: rotate(-3deg) scale(1.1);
+			box-shadow: 0px 3px 5px rgba(0,0,0,.4);
+		}
+		.button:hover span{
+			animation-play-state: paused;
+		}
+		.button1 {
+			min-width: 300px;
+			min-height: 60px;
+			font-size: 22px;
+			text-transform: uppercase;
+			letter-spacing: 1.3px;
+			font-weight: 700;
+			color: #fff;
+			border: 2px solid #fd1a49;
+			background: linear-gradient(90deg, #fd1a49 0%, #fd1a49 100%);
+			box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+			box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+			transition: all 0.3s ease-in-out 0s;
+			cursor: pointer;
+			outline: none;
+			position: relative;
+			padding: 10px;
+		}
+		.button1::before {
+			content: '';
+			min-width: calc(300px + 12px);
+			min-height: calc(60px + 12px);
+			border: 6px solid #00FFCB;
+			box-shadow: 0 0 60px rgba(0,255,203,.64);
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			opacity: 0;
+			transition: all .3s ease-in-out 0s;
+		}
+		.button1:hover, .button:focus {
+			color: #313133;
+			transform: translateY(-6px);
+		}
+		.button1:hover::before, button:focus::before {
+			opacity: 1;
+		}
+		.button1::after {
+			content: '';
+			width: 30px; height: 30px;
+			border-radius: 100%;
+			border: 6px solid #00FFCB;
+			position: absolute;
+			z-index: -1;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			animation: ring 1.5s infinite;
+		}
+		.button1:hover::after, button:focus::after {
+			animation: none;
+			display: none;
+		}
+		@keyframes ring {
+			0% {
+				width: 30px;
+				height: 30px;
+				opacity: 1;
+			}
+			100% {
+				width: 300px;
+				height: 300px;
+				opacity: 0;
+			}
+		}
+		.sketch-highlight{
+			position:relative;
+		}
+		.sketch-highlight:before{
+			content:"";
+			z-index:-1;
+			left:0em;
+			top:0em;
+			border-width:2px;
+			border-style:solid;
+			border-color:#4FD1C5;
+			position:absolute;
+			border-right-color:transparent;
+			width:100%;
+			height:1em;
+			transform:rotate(2deg);
+			opacity:0.5;
+			border-radius:0.25em;
+		}
+		.sketch-highlight:after{
+			content:"";
+			z-index:-1;
+			left:0em;
+			top:0em;
+			border-width:2px;
+			border-style:solid;
+			border-color:#4FD1C5;
+			border-left-color:transparent;
+			border-top-color:transparent;
+			position:absolute;
+			width:100%;
+			height:1em;
+			transform:rotate(-1deg);
+			opacity:0.5;
+			border-radius:0.25em;
+		}
+		.a1{
+			text-decoration: none;
+			background-position-y: 60%;
+			background-image: linear-gradient( #ffffff00 60%, #18fd9e 22%);
+			transition: background 500ms ease;
+			background-size: 2px;
+			background-size: auto 132%;
+			cursor: pointer;
+			font-weight: 200;
+			text-transform: uppercase;
+		}
+		.a1:hover {
+			background-position-y: 100%;
+		}
+		.h1 {
+			cursor: default;
+			position: absolute;
+			top: 0;
+			left: 0;
+			font-family: 'Luckiest Guy', cursive;
+			right: 0;
+			bottom: 0;
+			width: 100%;
+			height: 100px;
+			margin: auto;
+			display: block;
+			text-align: center;
+		}
+		.h1 span {
+			position: relative;
+			top: 20px;
+			font-family: 'Luckiest Guy', cursive;
+			display: inline-block;
+			-webkit-animation: bounce 0.3s ease infinite alternate;
+			font-size: 80px;
+			color: #52d2c6;
+			text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+			0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
+			0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+		}
+
+		.h1 span:nth-child(2) {
+			-webkit-animation-delay: 0.1s;
+		}
+		.h1 span:nth-child(3) {
+			-webkit-animation-delay: 0.2s;
+		}
+		.h1 span:nth-child(4) {
+			-webkit-animation-delay: 0.3s;
+		}
+		.h1 span:nth-child(5) {
+			-webkit-animation-delay: 0.4s;
+		}
+		.h1 span:nth-child(6) {
+			-webkit-animation-delay: 0.5s;
+		}
+		.h1 span:nth-child(7) {
+			-webkit-animation-delay: 0.6s;
+		}
+		.h1 span:nth-child(8) {
+			-webkit-animation-delay: 0.2s;
+		}
+		.h1 span:nth-child(9) {
+			-webkit-animation-delay: 0.3s;
+		}
+		.h1 span:nth-child(10) {
+			-webkit-animation-delay: 0.4s;
+		}
+		.h1 span:nth-child(11) {
+			-webkit-animation-delay: 0.5s;
+		}
+		.h1 span:nth-child(12) {
+			-webkit-animation-delay: 0.6s;
+		}
+		.h1 span:nth-child(13) {
+			-webkit-animation-delay: 0.7s;
+		}
+		.h1 span:nth-child(14) {
+			-webkit-animation-delay: 0.8s;
+		}
+		@-webkit-keyframes bounce {
+			100% {
+				top: -20px;
+				text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+				0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc,
+				0 50px 25px rgba(0, 0, 0, 0.2);
+			}
+		}
+	</style>
+	<style>
+        #price-tab {
+			padding-top: 91.19px;
+			position: relative;
+			background: #f6f6f6;
+		}
+		#price-tab .price-tab-box .box-header {
+			background-color: #000;
+			color: #fff;
+			padding: 40px 20px;
+			border-top-left-radius: 14px;
+			border-top-right-radius: 14px;
+			position: relative;
+		}
+		#price-tab .price-tab-box .box-header .save-price {
+			max-width: 240px;
+			width: 100%;
+			margin: 0 auto;
+			height: 66px;
+			background-color: #fd1a49;
+			text-transform: uppercase;
+			font-family: Helvetica Neue LT Std\ 47;
+			color: #fff;
+			border-radius: 50px;
+			font-size: 35px;
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-pack: center;
+			-webkit-justify-content: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			-webkit-box-align: center;
+			-webkit-align-items: center;
+			-ms-flex-align: center;
+			align-items: center;
+			position: absolute;
+			left: 50%;
+			bottom: 0;
+			-webkit-transform: translate(-50%,50%);
+			transform: translate(-50%,50%);
+		}
+		#price-tab .price-tab-box {
+			border-radius: 14px;
+			background-color: #fff;
+			-webkit-box-shadow: 0 13px 84px rgba(0,0,0,.14);
+			box-shadow: 0 13px 84px rgba(0,0,0,.14);
+			position: relative;
+			margin-bottom: 50px;
+		}
+		#price-tab .price-tab-box .box-body ul li {
+			font-size: 20px;
+			text-transform: uppercase;
+			color: #616161;
+			font-family: Helvetica Neue LT Std;
+		   text-align: center;
+			margin-bottom: 10px;
+			padding: 5px;
+			position: relative;
+		}
+		.btn-primary:after {
+			content: "\f105";
+			font-family: Font Awesome\ 5 Free;
+			font-weight: 900;
+			position: absolute;
+			top: 50%;
+			-webkit-transform: translateY(-50%);
+			transform: translateY(-50%);
+			-webkit-transition: all .5s ease;
+			transition: all .5s ease;
+		}
+		.btn-primary.btn-md:before {
+			content: "";
+			top: -20px;
+			left: -20px;
+			right: -20px;
+			bottom: -20px;
+			background-color: #18fd9e;
+			opacity: .5;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			-webkit-transform: translate(-50%,-50%);
+			transform: translate(-50%,-50%);
+			border-radius: 100px;
+			z-index: -1;
+			-webkit-animation-name: pulseTwo;
+			animation-name: pulseTwo;
+			-webkit-animation-delay: .5s;
+			animation-delay: .5s;
+			-webkit-animation-timing-function: linear;
+			animation-timing-function: linear;
+			-webkit-animation-iteration-count: infinite;
+			animation-iteration-count: infinite;
+			-webkit-animation-direction: normal;
+			animation-direction: normal;
+		}
+		#price-tab .price-tab-box .box-body .body-title span {
+			color: #737373;
+		}
+		#price-tab .price-tab-box .box-header .title {
+			font-size:32px;
+			line-height: 38px;
+			text-transform: uppercase;
+		}
+		#price-tab .price-tab-box .box-header .subtitle {
+			font-size: 28px;
+			line-height: 32px;
+			text-transform: uppercase;
+			font-family: Helvetica Neue LT Std\ 47;
+		}
+		#price-tab .price-tab-box .box-body .body-title span {
+			color: #737373;
+		}
+		#price-tab .price-tab-box .box-header .sale-price {
+			color: #18fd9e;
+		}
+		#price-tab .price-tab-box .box-body {
+			padding-top: 75px;
+			padding-bottom: 75px;
+		}
+		.stu {
+			width: 100%;
+			padding: 5px;
+			background: #18fd9e;
+			box-shadow: 0px 0px 20px 20px #999d9b40;
+			border-radius: 5px;
+		}
+		hr {
+			margin-top: 1rem;
+			margin-bottom: 1rem;
+			border: 0;
+			border-top: 1px solid #3e4042;
+		}
+    </style>
+	<style>
+        #about-finance .content .blocks .block {
+			background-color: #172e3e;
+			color: #fff;
+			height: 100%;
+			padding: 20px 30px 30px;
+			-webkit-box-shadow: 0 13px 27px rgba(0,0,0,.14);
+			box-shadow: 0 13px 27px rgba(0,0,0,.14);
+		}
+		#about-finance .content .blocks .block .block-count {
+			font-size: 80px;
+			line-height: 80px;
+			font-family: Helvetica Neue LT Std;
+			color: #18fd9e;
+			display: inline-block;
+			margin-bottom: 10px;
+		}
+		#about-finance .content .blocks .block .block-title {
+			font-size: 30px;
+			line-height: 35px;
+			text-transform: uppercase;
+			color: #fff;
+			margin-bottom: 25px;
+		}
+		#about-finance .section-header .title {
+			font-size: 60px;
+			line-height: 90px;
+			text-transform: uppercase;
+			color: #18fd9e;
+		}
+		#about-finance .section-header .subtitle {
+			font-size: 50px;
+			line-height: 55px;
+			
+			color: #2f2c2c;
+			margin-bottom:40px;
+		}
+		ol.process-chart {
+			color: #000;
+			counter-reset: item;
+			display: flex;
+			flex-wrap: wrap;
+			list-style: none;
+			margin: 0 0 0 1em;
+			padding: 0;
+		}
+		ol.process-chart > li, ol.process-chart > li > div {
+			position: relative;
+		}
+		ol.process-chart > li {
+			background: linear-gradient(to right, rgba(0,0,0,0.25) 0%, transparent 25%);
+			background-color: #fff;
+			counter-increment: item;
+			flex-basis: 0;
+			flex-grow: 1;
+			margin: 1em 1em 1em -1em;
+			min-width: 11.25em;
+			padding: 1em 1em 1em 2em;
+		}
+		ol.process-chart > li:before, ol.process-chart > li > div:before {
+			color: rgba(0,0,0,0.75);
+			font-family: 'Oswald', sans-serif;
+			text-transform: uppercase;
+		}
+		ol.process-chart > li:before {
+			content: 'Step';
+			display: inline-block;
+			font-weight: 300;
+			left: 2em;
+			letter-spacing: 0.1em;
+			position: absolute;
+			top: 1em;
+			transform: rotate(90deg);
+			transform-origin: 25% 50%;
+		}
+		ol.process-chart > li:after {
+			border-bottom: 1em solid transparent;
+			border-left: 1em solid #fff;
+			border-right: 0 solid transparent;
+			border-top: 1em solid transparent;
+			content: '';
+			height: 100%;
+			position: absolute;
+			right: -1em;
+			top: 0;
+			width: 0;
+			z-index: 1;
+		}
+		ol.process-chart > li > div {
+			padding: 0 0 0 1em;
+		}
+		ol.process-chart > li > div:before {
+			content: counter(item, decimal-leading-zero);
+			font-size: 3em;
+			font-weight: 500;
+			line-height: 1;
+			font-weight: 800;
+			margin-left: 10px;
+		}
+
+		/*** PRIMARY ***/
+		ol.process-chart > li:nth-of-type(6n+1) {
+			background-color: #a2ed56;
+		}
+		ol.process-chart > li:nth-of-type(6n+1):after {
+			border-left-color: #a2ed56;
+		}
+
+		/*** SECONDARY ***/
+		ol.process-chart > li:nth-of-type(6n+2) {
+			background-color: #83e4e2;
+		}
+		ol.process-chart > li:nth-of-type(6n+2):after {
+			border-left-color: #83e4e2;
+		}
+
+		/*** TERTIARY ***/
+		ol.process-chart > li:nth-of-type(6n+3) {
+			background-color: #fd6470;
+		}
+		ol.process-chart > li:nth-of-type(6n+3):after {
+			border-left-color: #fd6470;
+		}
+
+		/*** QUATERNARY ***/
+		ol.process-chart > li:nth-of-type(6n+4) {
+			background-color: #fca858;
+		}
+		ol.process-chart > li:nth-of-type(6n+4):after {
+			border-left-color: #fca858;
+		}
+
+		/*** QUINARY ***/
+		ol.process-chart > li:nth-of-type(6n+5) {
+			background-color: #fddc32;
+		}
+		ol.process-chart > li:nth-of-type(6n+5):after {
+			border-left-color: #fddc32;
+		}
+
+		/*** MEDIA QUERIES ***/
+		@media only screen and ( max-width: 40em ) {
+			ol.process-chart {
+				margin: 1em 0 0 0;
+				padding: 1em 0 0 0;
+			}
+			ol.process-chart > li {
+				background: linear-gradient(rgba(0,0,0,0.25) 0%, transparent 25%);
+				flex-basis: inherit;
+				margin: -1em 0 1em 0;
+				min-width: inherit;
+				padding: 1em 1em 0 1em;
+			}
+			ol.process-chart > li:before {
+				left: 1em;
+				top: 2em;
+			}
+			ol.process-chart > li:after {
+				border-bottom: 0 solid transparent;
+				border-left: 1em solid transparent!important;
+				border-right: 1em solid transparent;
+				border-top: 1em solid #fff;
+				bottom: -1em;
+				height: 0;
+				left: 0;
+				right: inherit;
+				top: inherit;
+				width: 100%;
+			}
+			ol.process-chart > li > div {
+				padding: 1em 1em 0 1em;
+			}
+
+			/*** PRIMARY ***/
+			ol.process-chart > li:nth-of-type(6n+1):after {
+				border-top-color: #a2ed56;
+			}
+
+			/*** SECONDARY ***/
+			ol.process-chart > li:nth-of-type(6n+2):after {
+				border-top-color: #83e4e2;
+			}
+
+			/*** TERTIARY ***/
+			ol.process-chart > li:nth-of-type(6n+3):after {
+				border-top-color: #fd6470;
+			}
+
+			/*** QUATERNARY ***/
+			ol.process-chart > li:nth-of-type(6n+4):after {
+				border-top-color: #fca858;
+			}
+
+			/*** QUINARY ***/
+			ol.process-chart > li:nth-of-type(6n+5):after {
+				border-top-color: #fddc32;
+			}
+		}
+		#about-finance .content .blocks [class*=col-]:nth-child(3) .block, #about-finance .content .blocks [class*=col-]:nth-child(6) .block {
+			-webkit-transform: translateY(-100px);
+			transform: translateY(-100px);
+		}
+		#about-finance .content .blocks [class*=col-]:nth-child(2) .block, #about-finance .content .blocks [class*=col-]:nth-child(5) .block {
+			-webkit-transform: translateY(-50px);
+			transform: translateY(-50px);
+		}
+		.card-body1 {
+			border: 1px solid #ccc; 
+			background: #fff;
+		}
+    </style>
+</head>
+<body>
+    <section class="w-full" style="backgrond:url('')">
+        <div class="w-full flex justify-center">
+            <div class="row w-full">
+                <div class="">
+					<div class="text-center mt-20">
+						<h3 class="font-semibold" style="font-family: 'Sacramento', cursive !important; font-size: 55px;">
+							Geetika Saigal
+						</h3>
+						<br>
+						<br>
+						<div class="text-center w-full">
+							<div id="offer-timer-1" class="offer-timer flex justify-center">
+								<div>
+									<span class="days mb-10"></span>
+									<div class="smalltext">Days</div>
+								</div>
+								<div>
+									<span class="hours"></span>
+									<div class="smalltext">Hours</div>
+								</div>
+								<div>
+									<span class="minutes"></span>
+									<div class="smalltext">Minutes</div>
+								</div>
+								<div>
+									<span class="seconds"></span>
+									<div class="smalltext">Seconds</div>
+								</div>
+							</div>
+						</div>
+						<br>
+						<h1 class="font-semibold mt-4 text-4xl" style="font-family:'Oswald'">BECOME THE LEADER YOU WERE BORN TO BE</h1>
+					</div>
+				</div>
+				<div class=" flex justify-center w-full h-4xp mt-6 mb-16">
+					<iframe src="https://player.vimeo.com/video/470910372" class="res-vimeo w-full" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="" data-ready="true"></iframe>
+				</div>
+				<div class="w-full text-center">
+					<div class="hero-content-left text-black font-semibold">
+						<h1 class="font-oswald text-5xl"><span><span style="color:#fd1a49">U</span><i>.NLIMITED</i></span><br/> A new-age Program for new-world Leaders</h1>
+						<div class="wrap mt-16">
+							<a href="#iwantin">
+							   <button class="button1 "> I want in </button>
+							</a>
+						</div>
+					</div>
+				</div>
+	
+				<div class="w-full flex mt-16 mb-20 ">
+				<div class="w-4/12 ml-10 flex justify-end">
+					<div class="feature-box-2 bg-white shadow-box flex w-11/12 border-2 rounded-lg border-red-400 p-4 mr-6">
+						<div class="area-icon">
+							<img class="w-24 h-24 rounded-xl" src="./dist/img/1.jpg">
+						</div>
+						<div class="area-content ml-6">
+							<h2 class="font-bold text-4xl">52</h2>
+							<p class="text-2xl">Video courses</p>
+						</div>
+					</div>
+				</div>
+				<div class="w-4/12 flex justify-center">
+					<div class="feature-box-2 bg-white flex shadow-box w-11/12 border-2 rounded-lg border-red-400 p-4 mr-6">
+						<div class="area-icon">
+							<img class="w-24 h-24 rounded-xl" src="./dist/img/1.jpg">
+						</div>
+						<div class="area-content ml-6">
+							<h2 class="font-bold text-4xl">52</h2>
+							<p class="text-2xl">Video courses</p>
+						</div>
+					</div>
+				</div>
+				<div class="w-4/12 flex justify-start">
+					<div class="feature-box-2 bg-white shadow-box flex w-11/12 border-2 rounded-lg border-red-400 p-4">
+						<div class="area-icon">
+							<img class="w-24 h-24 rounded-xl" src="./dist/img/1.jpg">
+						</div>
+						<div class="area-content ml-6">
+							<h2 class="font-bold text-4xl">52</h2>
+							<p class="text-2xl">Video courses</p>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+            </div>
+        </div>
+    </section>
+    <section class="promo-section" style="padding: 50px 0px 20px;">
+        <div class="container">
+             <div class="row align-items-center">
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme clients-carousel dot-indicator">
+                        <div class="item"> <a href="#"><img class="client-img" src="img/media/techstory2.jpg" alt=""></a></div>
+						<div class="item"> <a href="#"><img class="client-img" src="img/media/indiatoday2.jpg" alt=""></a> </div>
+						<div class="item"> <a href="#"><img class="client-img" src="img/media/ht2.jpg" alt=""></a> </div>
+						<div class="item"> <a href="#"><img class="client-img" src="img/media/femina2-2.jpg" alt=""></a> </div>
+						<div class="item"> <a href="#"><img class="client-img" src="img/media/ct2.jpg" alt=""></a> </div> 
+						<div class="item"> <a href="#"><img class="client-img" src="img/media/ibt.jpg" alt=""></a> </div> 
+						<div class="item"> <a href="#"><img class="client-img" src="img/media/outloot1.jpg" alt=""></a> </div> 
+						<div class="item"> <a href="#"><img class="client-img" src="img/media/tribune.jpg" alt=""></a> </div> 
+						<div class="item"> <a href="#"><img class="client-img" src="img/media/thrive.jpg" alt=""></a> </div> 
+						<div class="item"> <a href="#"><img class="client-img" src="img/media/the-asian-age-logo.jpg" alt=""></a> </div>
+						<div class="item"> <a href="#"><img class="client-img" src="img/media/dc.jpg" alt=""></a> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<section data-bg-color="#fff" style="background: rgb(244 247 250) !important; padding: 50px 0px 30px;">
+		<div class="container">
+			<div class="section-content">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="text-center">
+							<div>
+								<h1>MEET GEETIKA SAIGAL</h1>
+							</div>
+							<hr>
+							<p class="font-weight-400 text-black Oswald-font font-28">Bestselling Author | 5 times TEDx Speaker | Digital Influencer | Award-winning Coach</p>
+							<hr>
+							<p class="lead font-weight-400  Roboto-font ">Geetika is an Amazon No.1 Bestselling Author,<br> 5 times TEDx Speaker &amp; Multi Award-winning Success Coach, on a mission to help you in ‘Finding Your G-Spot’ in life.</p>
+							<p class="text-black font-16 line-height-30  Roboto-font">Her inspirational life journey which has spanned many career paths, global exposure and bold life decisions, shows us how to live life true to one’s self. A born speaker and inspirational leader, she speaks at leading platforms &amp; forums, in her mission to help people build impactful careers and meaningful lives. In her own words, “If you try, you can lose; if you don’t, you’ve already lost.”</p>
+							<div>                                   
+							</div>                                
+						</div>
+					</div>
+					<div>
+					   <div class="row equal justify-content-center text-center">
+							<div class="col-md-4">
+								<img src="../images/meet/tedx.jpg" width="100%">
+								<h5 class="font-weight-200 Oswald-font text-black">5X TEDx Speaker</h5>
+							</div>
+							<div class="col-md-4">
+								<img src="../images/meet/books.jpg" width="100%">
+								<h5 class="font-weight-200 Oswald-font text-black">Amazon No. 1 Bestselling Author</h5>
+							</div>
+							<div class="col-md-4">
+								<img src="../images/meet/Award-Winning.jpg" width="100%">
+								<h5 class="font-weight-200 Oswald-font text-black">Multi-Award Winning Leader</h5>
+							</div>
+					   </div>
+						<br>							  
+					</div>                            
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="about-us pt-5 pb-2">
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+				<div class="col-md-12">
+					<div class="section-heading text-center">
+						<h1 class="font-oswald">
+							The world is changing <span class="color-1">fast</span>,
+							<br>
+							<span class="color-1">faster</span> than ever before. In the <span class="color-1">New world</span>.
+						</h1>
+						<br>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="icon-box-2">
+									<img src="img/icons/que-1.svg" />
+									<div>Everything is <br> <span>Unpredictable</span></div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="icon-box-2">
+									<img src="img/icons/faster.png" />
+									<div>Everything is <br> <span>Faster</span></div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="icon-box-2">
+									<img src="img/icons/que-2.png" />
+									<div>Everything is <br> <span>Questionable</span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="cpb-1 pt-5 bg-gray">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="feature-contents section-heading br-l-box-1">
+						<h1 class="font-oswald que-1">
+							In this environment, how do we now <span class="color-1">plan for our future</span>?
+						</h1>
+						<h2>
+							By investing in ourselves.
+						</h2>
+						<p class="ans-1">
+							Developing Leadership qualities are becoming a MUST in the New World. McKinsey Consulting, BCG, World Economic Forum & all top bodies are stressing on the need to for organisations & each of us individuals to develop <span class="color-1 fw-8">TOP SKILLS of 2020 and the new decade</span>.
+							<br>
+							Those who successfully demonstrate these skills will be in the right position to lead big organisations, become top entrepreneurs & create inspiring success stories.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="cpt-1 cpb-1">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="feature-contents section-heading br-l-box-1">
+						<h1 class="font-oswald que-1">
+							Do you want to be one of them?
+						</h1>
+						<h2>
+							Say <span class="color-1 fw-8">YES</span>.
+						</h2>
+						<p class="ans-1">
+							Because in the New World there is no place in the middle. There will be <u>2 kinds of people in the New World</u>:
+							<br>
+							<span class="color-1 fw-8"><img src="img/icons/check.png" style="height: 25px; margin-bottom: -4px; margin-right: 10px;" /> The BEST</span>: The ones who create their destiny.
+							<br>
+							<span class="color-1 fw-8"><img src="img/icons/close.png" style="height: 25px; margin-bottom: -4px; margin-right: 10px;" /> The REST</span>: The ones who accept their fate.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="cpt-1 cpb-1 bg-gray">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="feature-contents section-heading br-l-box-1">
+						<h1 class="font-oswald que-1">
+							I want you <span class="color-1">to be the BEST</span>.
+						</h1>
+						<h4>
+							I’m on a mission, to help create world-class <span class="color-1 fw-8">LEADERS</span>.
+						</h4>
+						<br>
+						<h4>Whether you are:</h4>
+						<ul class="list-4" style="list-style-type: none;">
+							<li><img src="img/icons/star.png" style="height: 22px; margin-bottom: -3px; margin-right: 10px;" /> Working in a company</li>
+							<li><img src="img/icons/star.png" style="height: 22px; margin-bottom: -3px; margin-right: 10px;" /> An Entrepreneur</li>
+							<li><img src="img/icons/star.png" style="height: 22px; margin-bottom: -3px; margin-right: 10px;" /> A Student</li>
+							<li><img src="img/icons/star.png" style="height: 22px; margin-bottom: -3px; margin-right: 10px;" /> A small-business owner</li>
+							<li><img src="img/icons/star.png" style="height: 22px; margin-bottom: -3px; margin-right: 10px;" /> A freelancer, speaker, coach</li>
+							<li><img src="img/icons/star.png" style="height: 22px; margin-bottom: -3px; margin-right: 10px;" /> Or simply someone with a Big Dream</li>
+						</ul>
+						<br>
+						<h1 class="quote-1"><i>"You need to <span class="color-1 fw-8">Transform Yourself</span> to <span class="color-1 fw-8">Transform Your Life</span>."</i></h1>
+						<br>
+						<h2>In my 22 years of career, I have worked across 4 continents, serviced Top Fortune 500 companies, grown businesses by $200+ million.</h2>
+						<br>
+						<div class="row">
+							<div class="col-sm-4">
+								<div class="feature-box-3">
+									<div class="area-icon">
+										<img src="img/icons/tedx-2.png" class="Geetika Saigal" />
+									</div>
+									<div class="area-content">
+										<p>Earlier in 2020, I was invited to the <span class="color-1">TEDx Stage</span> to share my SUCCESS Formula - and ideas for the next decade.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="feature-box-3">
+									<div class="area-icon">
+										<img src="img/icons/entrepreneur.png" class="Geetika Saigal" />
+									</div>
+									<div class="area-content">
+										<p><span class="color-1">Entrepreneur.com</span> has featured my thoughts on how the Education system needs to be revamped to get ready for the New World.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="feature-box-3">
+									<div class="area-icon">
+										<img src="img/icons/people-matters.png" class="Geetika Saigal" />
+									</div>
+									<div class="area-content">
+										<p><span class="color-1">PeopleMatters</span> has published my views on how we all urgently need to Up-skill ourselves or else become obsolete in the New World.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+						<br>
+						<h2>The one thing that is clear is this.</h2>
+						<h2 class="color-1">
+							To be successful in the New World you need to learn continuously.
+						</h2>
+						<br>
+						<p class="ans-1">
+							Whether you are a student starting out, an established corporate professional, a passionate entrepreneur or an independent hustler…you need to keep learning and evolving to stay ahead of the curve.
+						</p>
+						<!--
+						<p class="ans-1">That gave birth to My Leadership Program.</p>
+						-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="cpt-1 cpb-1">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="feature-contents section-heading br-l-box-1 text-center">
+						<h1 class="title font-oswald"><span>WELCOME TO <span style="color:#fd1a49">U</span>.<i>NLIMITED</i></span></h1>
+						<!--
+						<h2>It’s a new-age program for <span class="color-1 fw-8">New-World Leaders</span>.</h2>
+						<h2>Continuous learning through New Courses <span class="color-1 fw-8">Every Week</span>.</h2>
+						-->
+						<br>
+						<div class="row">
+							<div class="col-sm-3 pd-b-2">
+								<div class="feature-box-4">
+									<div class="area-icon">
+										<img src="img/icons/video-2.png" class="Geetika Saigal">
+									</div>
+									<div class="area-content">
+										<h2>52 Courses</h2>
+										<p><span class="color-1">Video-based high-quality</span> Courses designed by me.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3 pd-b-2">
+								<div class="feature-box-4">
+									<div class="area-icon">
+										<img src="img/icons/monday.png" class="Geetika Saigal" />
+									</div>
+									<div class="area-content">
+										<h2>Monday</h2>
+										<p>Delivered <span class="color-1">automatically every Monday</span> to your private panel.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3 pd-b-2">
+								<div class="feature-box-4">
+									<div class="area-icon">
+										<img src="img/icons/mic.png" class="Geetika Saigal" />
+									</div>
+									<div class="area-content">
+										<h2>Live workshops</h2>
+										<p><span class="color-1">VIP</span> Invites to my <span class="color-1">LIVE</span> Workshops.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3 pd-b-2">
+								<div class="feature-box-4">
+									<div class="area-icon">
+										<img src="img/icons/qna.png" class="Geetika Saigal" />
+									</div>
+									<div class="area-content">
+										<h2>Weekly Q&amp;A</h2>
+										<p>Weekly <span class="color-1">Q&amp;A</span> sessions for guidance &amp; <span class="color-1">mentoring</span>.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-sm-9">
+								<div class="offer-content text-left">
+									<p><img src="img/icons/check.png" /> All-in-One Program to Transform Your Mindset, Skillset &amp; Habits.</p>
+									<p><img src="img/icons/check.png" /> This is a rare lifetime opportunity to build a NEW Version of yourself - Version YOU.2</p>
+									<p><img src="img/icons/check.png" /> If you are passionate about your future, this is the One & Only commitment you need to make.</p>
+									<p><img src="img/icons/check.png" /> For a short period of time, I’m opening the door for action-takers at a crazy, unbelievable offer.</p>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="offer-box">
+									<p>Offer available</p>
+									<h1>98%</h1>
+									<h2>Off</h2>
+								</div>
+							</div>
+						</div>
+						<br>
+						<div class="text-center">
+							<h2 class="text-center">I’m doing this to make sure you make a move. <span class="color-1 fw-8">I want you to succeed</span>.</h2>
+							<img src="img/icons/bolt.png" style="height: 40px;" />
+							<h3>Don’t overthink this.</h3>
+							<img src="img/icons/bolt.png" style="height: 40px;" />
+							<h3>It’s a no-brainer.</h3>
+							<img src="img/icons/bolt.png" style="height: 40px;" />
+							<h3>Choose Yourself.</h3>
+							<img src="img/icons/bolt.png" style="height: 40px;" />
+							<h3>Join the Movement.</h3>
+						</div>
+						<br>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="price-sec-1">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="price-tab-box pricing-box-2">
+									<div class="box-header">
+										<h3 class="sale-price">Per Month</h3>
+										<h1 class="sale-price">INR 299</h1>
+									</div>
+									<div class="box-body">
+										<br>
+										<p>Accepts all Credit Cards</p>
+										<br>
+										<div class="cc-card">
+											<img src="img/icons/cc.png" />
+										</div>
+										<div class="meta-content">
+											<a href="#iwantin"><button class="button1">Enrol Now</button></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="price-tab-box pricing-box-2">
+									<div class="box-header">
+										<h3 class="sale-price">One-Time</h3>
+										<h1 class="sale-price">INR 1990</h1>
+									</div>
+									<div class="box-body">
+										<p>All Credit Cards, Debit Cards, <br> NetBanking, UPI (GPAY, PayTM etc)</p>
+										<br>
+										<div class="cc-card">
+											<img src="img/icons/cc.png" />
+											<img src="img/icons/dc.png" />
+											<img src="img/icons/net-banking.png" />
+											<img src="img/icons/g-pay.png" />
+											<img src="img/icons/paytm.png" />
+											<img src="img/icons/upi.png" />
+										</div>
+										<div class="meta-content">
+											<a href="#iwantin"><button class="button1">Enrol Now</button></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="pt-100 pb-100 bg-gray">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="text-cente">
+						<h1 class="title mb-0 font-oswald text-center"><span>What will you get</span></h1>
+						<br>
+						<h2 class="subtitle mt-0 text-center"><i>Learn Top Leadership Skills for <span class="color-1 fw-8">2020</span> &amp; the NEW WORLD</i></h2>
+						<br>
+						<br>
+						<div class="row">
+							<div class="col-sm-3 pd-b-2">
+								<div class="feature-box-4">
+									<div class="area-icon">
+										<img src="img/icons/video-2.png" class="Geetika Saigal">
+									</div>
+									<div class="area-content">
+										<h2>52 Courses</h2>
+										<p><span class="color-1">Video-based high-quality</span> Courses designed by me.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3 pd-b-2">
+								<div class="feature-box-4">
+									<div class="area-icon">
+										<img src="img/icons/monday.png" class="Geetika Saigal" />
+									</div>
+									<div class="area-content">
+										<h2>Monday</h2>
+										<p>Delivered <span class="color-1">automatically every Monday</span> to your private panel.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3 pd-b-2">
+								<div class="feature-box-4">
+									<div class="area-icon">
+										<img src="img/icons/mic.png" class="Geetika Saigal" />
+									</div>
+									<div class="area-content">
+										<h2>Live workshops</h2>
+										<p><span class="color-1">VIP</span> Invites to my <span class="color-1">LIVE</span> Workshops.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3 pd-b-2">
+								<div class="feature-box-4">
+									<div class="area-icon">
+										<img src="img/icons/qna.png" class="Geetika Saigal" />
+									</div>
+									<div class="area-content">
+										<h2>Weekly Q&amp;A</h2>
+										<p>Weekly <span class="color-1">Q&amp;A</span> sessions for guidance &amp; <span class="color-1">mentoring</span>.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="promo-section mt-5 pt-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-12">
+                    <div class=" mb-5 text-center">
+                        <h1 class="font-oswald">TOPICS COVERED</h1>
+                        <h3 class="subtitle">To take you on your Transformational Journey, each course will teach you a different aspect to develop your Mindset, Skillset & Habits, such as:</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-lg-4 col-sm-6 mb-lg-0 ">
+                    <div class="card single-promo-card single-promo-hover mb-5">
+                        <div class="card-body text-center">
+                            <div class="text-center">
+                              <img src="images/mirror.png" class="img-fluid1">
+                            </div>
+                            <div class="text-center"><h5>Self-discovery</h5>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-lg-0">
+                    <div class="card single-promo-card single-promo-hover  mb-5">
+                        <div class="card-body text-center">
+                            <div class="text-center">
+                              <img src="images/leader.png" class="img-fluid1">
+                            </div>
+                            <div class="text-center"><h5>Leadership Skills</h5>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-lg-0">
+                    <div class="card single-promo-card single-promo-hover  mb-5">
+                        <div class="card-body text-center">
+                            <div class="text-center">
+                              <img src="images/interaction.png" class="img-fluid1">
+                            </div>
+                            <div class="text-center"><h5>Communication Mastery</h5>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-lg-0">
+                    <div class="card single-promo-card single-promo-hover  mb-5">
+                        <div class="card-body text-center">
+                            <div class="text-center">
+                              <img src="images/focus-1-.png" class="img-fluid1">
+                            </div>
+                            <div class="text-center"><h5>Laser Focus</h5>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-lg-0">
+                    <div class="card single-promo-card single-promo-hover   mb-5">
+                        <div class="card-body text-center">
+                            <div class="text-center">
+                              <img src="images/writer.png" class="img-fluid1">
+                            </div>
+                            <div class="text-center"><h5>Write a Bestseller Book</h5>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-lg-0">
+                    <div class="card single-promo-card single-promo-hover  mb-5">
+                        <div class="card-body text-center">
+                            <div class="text-center">
+                              <img src="images/confidence.png" class="img-fluid1">
+                            </div>
+                            <div class="text-center"><h5>Overcome Stage Fear</h5>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-lg-0">
+                    <div class="card single-promo-card single-promo-hover  mb-5">
+                        <div class="card-body text-center">
+                            <div class="text-center">
+                              <img src="images/branding.png" class="img-fluid1">
+                            </div>
+                            <div class="text-center"><h5>Personal Branding</h5>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-lg-0">
+                    <div class="card single-promo-card single-promo-hover  mb-5">
+                        <div class="card-body text-center">
+                            <div class="text-center">
+                              <img src="images/ownership.png" class="img-fluid1">
+                            </div>
+                            <div class="text-center"><h5>Entrepreneurship</h5>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-lg-0">
+                    <div class="card single-promo-card single-promo-hover  mb-5">
+                        <div class="card-body text-center">
+                            <div class="text-center">
+                              <img src="images/checklist.png" class="img-fluid1">
+                            </div>
+                            <div class="text-center"><h5>Time Management</h5>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-lg-0">
+                    <div class="card single-promo-card single-promo-hover  mb-5">
+                        <div class="card-body text-center">
+                            <div class="text-center">
+                              <img src="images/dream.png" class="img-fluid1">
+                            </div>
+                            <div class="text-center"><h5>Motivation</h5>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-lg-0">
+                    <div class="card single-promo-card single-promo-hover  mb-5">
+                        <div class="card-body text-center">
+                            <div class="text-center">
+                              <img src="images/clock.png" class="img-fluid1">
+                            </div>
+                            <div class="text-center"><h5>Develop Successful Habits</h5>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-lg-0">
+                    <div class="card single-promo-card single-promo-hover  mb-5">
+                        <div class="card-body text-center">
+                            <div class="text-center">
+                              <img src="images/motivation.png" class="img-fluid1">
+                            </div>
+                            <div class="text-center"><h5>Passion to Profession</h5>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-lg-0">
+                    <div class="card single-promo-card single-promo-hover  mb-5">
+                        <div class="card-body text-center">
+                            <div class="text-center">
+                              <img src="images/tedx.png" class="img-fluid1" style="width:40% !important;">
+                            </div>
+                            <div class="text-center"><h5>Deliver TED-like Talks</h5>
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-lg-0">
+                    <div class="card single-promo-card single-promo-hover  mb-5">
+                        <div class="card-body text-center">
+                            <div class="text-center">
+                              <img src="images/money.png" class="img-fluid1">
+                            </div>
+                            <div class="text-center"><h5>High-Ticket Sales</h5>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-lg-0">
+                    <div class="card single-promo-card single-promo-hover  mb-5">
+                        <div class="card-body text-center">
+                            <div class="text-center">
+                              <img src="images/work.png" class="img-fluid1">
+                            </div>
+                            <div class="text-center"><h5>Creating the Elevator Pitch</h5>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<section class="pt-100 pb-100 bg-1">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="text-center">
+						<h1 class="title mb-0 font-oswald">
+							<span><span class="text-white">If you enrol now</span>
+						</h1>
+						<br>
+						<br>
+						<h2 class="subtitle mt-0 text-white">You will get <span style="color: #ffffff; text-shadow: 1px 2px 2px #232323; font-size: 3.5rem; border-bottom: 4px solid #ffeb3b;">Lifetime Access</span> to all 52 Courses!</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="promo-section about-us ptb-100" style="background: #3fd9d9;">
+        <div class="container">
+			<h1 class="title-2 head">Get in Month-1</h1>
+			<div class="triangle-down-1" style="border-top-color: #000;"></div>
+			<br>
+            <div class="row text-center mb-5">
+                <div class="col-lg-12">
+					<h1 class="title-2 text-white">Course 1 - Instant Access</h1>
+                </div>
+            </div>
+			<div class="bg-white" style="border-radius: 20px; padding-top: 20px;">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="img/ebooks/2.jpg" style="width: 100%; border-radius: 20px 0px 0px 20px;" alt="The Focus Game" />
+					</div>
+					<div class="col-md-6">
+						<div class="course-detail">
+							<h2>The Focus Game</h2>
+							<h3><img src="img/icons/video.png" /> 15 Video Course</h2>
+							<h4><img src="img/icons/check.png" /> Bust the biggest Myth!</h4>
+							<h4><img src="img/icons/check.png" /> Decoding Focus</h4>
+							<h4><img src="img/icons/check.png" /> 4 World-class Methodologies to Master Focus</h4>
+							<h4><img src="img/icons/check.png" /> 5 Step Process for Laser Focus</h4>
+							<br>
+							<a href="#iwantin" class="btn-enroll-2">Enrol Now</a>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+    </section>
+	<div class="triangle-down-2" style="border-top-color: #3fd9d9;"></div>
+	<section class="promo-section about-us ptb-100 ptb-100" style="background: #000000;">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-12">
+					<h1 class="title-2 text-white">Course 2 - Instant Access</h1>
+                </div>
+            </div>
+			<div class="bg-white" style="border-radius: 20px; padding-top: 20px;">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="img/ebooks/3.jpg" style="width: 100%; border-radius: 20px 0px 0px 20px;" alt="The Focus Game" />
+					</div>
+					<div class="col-md-6">
+						<div class="course-detail">
+							<h2>Train the brain</h2>
+							<h3><img src="img/icons/video.png" /> 9 Video Course</h2>
+							<h4><img src="img/icons/check.png" /> Top methods to put your brain on 10X mode</h4>
+							<h4><img src="img/icons/check.png" /> Cracking the Deep Work Mode</h4>
+							<h4><img src="img/icons/check.png" /> Best way to multiply Productivity</h4>
+							<h4><img src="img/icons/check.png" /> 7 Step Process to go into Beast-mode</h4>
+							<br>
+							<a href="#iwantin" class="btn-enroll-2">Enrol Now</a>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+    </section>
+	<div class="triangle-down-2" style="border-top-color: #000000;"></div>
+	<section class="promo-section about-us ptb-100 ptb-100" style="background: #fd1a49;">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-12">
+					<h1 class="title-2 text-white">Course 3 - 1st Monday</h1>
+                </div>
+            </div>
+			<div class="bg-white" style="border-radius: 20px; padding-top: 20px;">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="img/ebooks/1.jpg" style="width: 100%; border-radius: 20px 0px 0px 20px;" alt="The Focus Game" />
+					</div>
+					<div class="col-md-6">
+						<div class="course-detail">
+							<h2>Motivation on automation</h2>
+							<h3><img src="img/icons/video.png" /> 20 Video Course</h2>
+							<h4><img src="img/icons/check.png" /> Motivation is a Science!</h4>
+							<h4><img src="img/icons/check.png" /> Minimising Barrier 1</h4>
+							<h4><img src="img/icons/check.png" /> Overcoming Barrier 2</h4>
+							<h4><img src="img/icons/check.png" /> Smashing Barrier 3</h4>
+							<h4><img src="img/icons/check.png" /> Auto-pilot Your Motivation</h4>
+							<h4><img src="img/icons/check.png" /> The BIG Model</h4>
+							<br>
+							<a href="#iwantin" class="btn-enroll-2">Enrol Now</a>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+    </section>
+	<div class="triangle-down-2" style="border-top-color: #fd1a49;"></div>
+	<section class="promo-section about-us ptb-100 ptb-100" style="background: #fecf59;">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-12">
+					<h1 class="title-2">Course 4 - 2nd Monday</h1>
+                </div>
+            </div>
+			<div class="bg-white" style="border-radius: 20px; padding-top: 20px;">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="img/ebooks/4.jpg" style="width: 100%; border-radius: 20px 0px 0px 20px;" alt="The Focus Game" />
+					</div>
+					<div class="col-md-6">
+						<div class="course-detail">
+							<h2>Bye-bye bad habits</h2>
+							<h3><img src="img/icons/video.png" /> 11 Video Course</h2>
+							<h4><img src="img/icons/check.png" /> Finding the Root Cause</h4>
+							<h4><img src="img/icons/check.png" /> Smashing the Habit Loop</h4>
+							<h4><img src="img/icons/check.png" /> The 5 Step Process followed by top achievers</h4>
+							<br>
+							<a href="#iwantin" class="btn-enroll-2">Enrol Now</a>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+    </section>
+	<div class="triangle-down-2" style="border-top-color: #fecf59;"></div>
+	<section class="promo-section about-us ptb-100 ptb-100" style="background: #4a626e;">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-12">
+					<h1 class="title-2 text-white">Course 5 - 3rd Monday</h1>
+                </div>
+            </div>
+			<div class="bg-white" style="border-radius: 20px; padding-top: 20px;">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="img/ebooks/5.jpg" style="width: 100%; border-radius: 20px 0px 0px 20px;" alt="The Focus Game" />
+					</div>
+					<div class="col-md-6">
+						<div class="course-detail">
+							<h2>Overcome stage fear</h2>
+							<h3><img src="img/icons/video.png" /> 11 Video Course</h2>
+							<h4><img src="img/icons/check.png" /> Get Transformed</h4>
+							<h4><img src="img/icons/check.png" /> The 1 Hack</h4>
+							<h4><img src="img/icons/check.png" /> Stage Fear decoded</h4>
+							<h4><img src="img/icons/check.png" /> Smash the Fear</h4>
+							<h4><img src="img/icons/check.png" /> 7 Ways to a Confident You!</h4>
+							<h4><img src="img/icons/check.png" /> 1 best method to get there!</h4>
+							<br>
+							<a href="#iwantin" class="btn-enroll-2">Enrol Now</a>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+    </section>
+	<div class="triangle-down-2" style="border-top-color: #4a626e;"></div>
+	<section class="promo-section about-us ptb-100 ptb-100" style="background: #b95495;">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-12">
+					<h1 class="title-2 text-white">Course 6 - 4th Monday</h1>
+                </div>
+            </div>
+			<div class="bg-white" style="border-radius: 20px; padding-top: 20px;">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="img/ebooks/6.jpg" style="width: 100%; border-radius: 20px 0px 0px 20px;" alt="The Focus Game" />
+					</div>
+					<div class="col-md-6">
+						<div class="course-detail">
+							<h2>Presenting like a pro</h2>
+							<h3><img src="img/icons/video.png" /> 19 Video Course</h2>
+							<h4><img src="img/icons/check.png" /> Setting Yourself Up for Success</h4>
+							<h4><img src="img/icons/check.png" /> The No.1 hack</h4>
+							<h4><img src="img/icons/check.png" /> The Secret Sauce</h4>
+							<h4><img src="img/icons/check.png" /> Master the Presentation</h4>
+							<h4><img src="img/icons/check.png" /> Give a memorable Delivery</h4>
+							<h4><img src="img/icons/check.png" /> Non-verbal delivery matters too!</h4>
+							<br>
+							<a href="#iwantin" class="btn-enroll-2">Enrol Now</a>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+    </section>
+	<section class="pt-100 pb-100 bg-gray">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h1 class="title title-2 font-oswald">AND THAT’S JUST <span class="color-1" style="border-bottom: 4px solid #000;">MONTH 1</span>…</h1>
+					<br>
+					<h2><span style="border-bottom: 4px solid #fd1a49;">11 MORE</span> SUCH MONTHS TO FOLLOW!</h2>
+					<br>
+					<div>
+						<a href="#iwantin" class="btn-enroll-2">Enrol Now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="pt-100 bg-2">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="text-center">
+						<img src="img/extra-bonus.png" style="width: 35%;" alt="Geetika Saigal" />
+					</div>
+					<br>
+					<br>
+				</div>
+				<div class="col-lg-12">
+					<div class="bonus-box-1">
+						<h2>Bonus 1</h2>
+						<h3>12 LIVE Interactive Workshops with me - 3 Hours each (Rs.12000 - Free for you)</h3>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="bonus-box-1">
+						<h2>Bonus 2</h2>
+						<h3>4 e-Books by me (Instant Download upon enrolling) - Instant Inspiration!</h3>
+						<br>
+						<div class="row">
+							<div class="col-md-3 col-sm-6">
+								<div class="ebook-box">
+									<img src="img/ebooks/ebook-1.jpg" alt="Motivation on Automation" />
+									<!--<p>Motivation on Automation</p>-->
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="ebook-box">
+									<img src="img/ebooks/ebook-2.jpg" alt="The focus game" />
+									<!--<p>The Focus Game</p>-->
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="ebook-box">
+									<img src="img/ebooks/ebook-3.jpg" alt="Train the brain" />
+									<!--<p>Train the Brain</p>-->
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="ebook-box">
+									<img src="img/ebooks/ebook-4.jpg" alt="Bye-bye bad habits" />
+									<!--<p>Bye-Bye Bad Habits</p>-->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="bonus-box-1">
+						<h2>Bonus 3</h2>
+						<h3>First 2 courses INSTANT ACCESS upon enrolling</h3>
+						<p>2 Transformational Courses - 25 Video lessons - 10+ Exercises</p>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="bonus-box-1">
+						<h2>Bonus 4</h2>
+						<h3>Weekly LIVE Q&amp;A Sessions to get mentored by me (Priceless!)</h3>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="bonus-box-1">
+						<h2>Bonus 5</h2>
+						<h3>Price Lock! The real value of the U.NLIMITED MEMBERSHIP is > Rs. 1 LAC. Prices will soon increase. But you will not be affected. Your price will remain same now &amp; forever!</h3>
+					</div>
+				</div>
+			</div>
+			<div style="margin-top: -50px; padding-bottom: 40px;">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="price-sec-1">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="price-tab-box pricing-box-2">
+										<div class="box-header">
+											<h3 class="sale-price">Per Month</h3>
+											<h1 class="sale-price">INR 299</h1>
+										</div>
+										<div class="box-body">
+											<br>
+											<p>Accepts all Credit Cards</p>
+											<br>
+											<div class="cc-card">
+												<img src="img/icons/cc.png" />
+											</div>
+											<div class="meta-content">
+												<a href="#iwantin"><button class="button1">Enrol Now</button></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="price-tab-box pricing-box-2">
+										<div class="box-header">
+											<h3 class="sale-price">One-Time</h3>
+											<h1 class="sale-price">INR 1990</h1>
+										</div>
+										<div class="box-body">
+											<p>All Credit Cards, Debit Cards, <br> NetBanking, UPI (GPAY, PayTM etc)</p>
+											<br>
+											<div class="cc-card">
+												<img src="img/icons/cc.png" />
+												<img src="img/icons/dc.png" />
+												<img src="img/icons/net-banking.png" />
+												<img src="img/icons/g-pay.png" />
+												<img src="img/icons/paytm.png" />
+												<img src="img/icons/upi.png" />
+											</div>
+											<div class="meta-content">
+												<a href="#iwantin"><button class="button1">Enrol Now</button></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="pt-100 pb-100">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="icon-box-1 text-center">
+						<img src="img/icons/stop.png" style="border-radius: 50%;" alt="" />
+						<p>Stop wasting Time, Energy & Money on Courses & digital ‘Gurus’</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="icon-box-1 text-center">
+						<img src="img/icons/stop.png" style="border-radius: 50%;" alt="" />
+						<p>Stop listening to people who are playing the game of selling ‘hope’</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="icon-box-1 text-center">
+						<img src="img/icons/stop.png" style="border-radius: 50%;" alt="" />
+						<p>Stop being confused about choices and make ONE commitment</p>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="box-1 text-center">
+						<br>
+						<p>To learn the ‘stuff that matters’ from someone you can ‘trust’</p>
+						<p>Here’s what the world is saying</p>
+						<br>
+						<br>
+						<div style="margin-bottom: 20px;"><img src="img/icons/tedx.png" style="height: 45px;" /></div>
+						<p>TEDx has invited Geetika 5 times to share her Thought-Leading Ideas</p>
+						<div class="row" style="margin-top: 30px;">
+							<div class="col-md-4">
+								<img src="img/tedx/1.jpg" style="width: 100%; height: auto;" />
+							</div>
+							<div class="col-md-4">
+								<img src="img/tedx/2.jpg" style="width: 100%; height: auto;" />
+							</div>
+							<div class="col-md-4">
+								<img src="img/tedx/3.jpg" style="width: 100%; height: auto;" />
+							</div>
+							<div class="col-md-4">
+								<img src="img/tedx/6.jpg" style="width: 100%; height: auto;" />
+							</div>
+							<div class="col-md-4">
+								<img src="img/tedx/7.jpg" style="width: 100%; height: auto;" />
+							</div>
+							<!--
+							<div class="col-md-4">
+								<img src="img/tedx/5.jpg" style="width: 100%; height: auto;" />
+							</div>
+							<div class="col-md-4">
+								<img src="img/tedx/5.jpg" style="width: 100%; height: auto;" />
+							</div>
+							-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="ptb-100" style="background: #f3f3f3;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h1 class="font-oswald">Featured In</h1>
+					<br>
+				</div>
+				<div class="col-md-6">
+					<div class="card-body1 height-100">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="pd-mag">
+									<div class="comment">
+										<p class="font-28 text-black Oswald-font"><i>a breath of fresh air in the literary world”</i></p>
+									</div>
+									 <div class="content mt-20">
+										<div class="patient-details text-left pull-left mr-20 mt-10">
+											<img src="../images/deccan.jpg" style="width: 30%">
+											<h5 class="author text-theme-colored">by Deccan Chronicle</h5>                                             
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<img src="../images/deccan1.jpg" width="100%">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="card-body1 height-100">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="pd-mag">
+									<div class="comment">
+										<p class="font-28 text-black Oswald-font"><i>Making waves with her unconventional writing style and larger-than-life persona”</i></p>
+									</div>
+									<div class="content mt-20">
+										<div class="patient-details text-right pull-right mr-20 mt-10">
+											<img src="../images/thrive-global-logo.png" width="100%">
+											<h5 class="author text-theme-colored">by Arianna Huffington’s Thrive Global</h5>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<img src="../images/tri.jpg" width="100%">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="card-body1 height-100">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="pd-mag">
+									<div class="comment">
+										<p class="font-28 text-black Oswald-font"><i>Deep yet humorous, soulful yet brutally honest, Geetika Saigal is jazzing up the self-help genre"</i></p>
+									</div>
+									<div class="content mt-20">
+										<div class="patient-details text-left pull-left mr-20 mt-10">
+											<img src="../images/yahoo.png" style="width: 20%">
+											<h5 class="author text-theme-colored ">by Yahoo News</h5>                                             
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<img src="../images/know_more.png" width="100%">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="card-body1 height-100">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="pd-mag">
+									<div class="comment">
+										<p class="font-28 text-black Oswald-font"><i>Meet the Dot Com Divas"</i></p>
+									</div>
+									<div class="content mt-20">                                            
+										<div class="patient-details text-left pull-left mr-20 mt-10">
+											<img src="../images/indiatoday2.jpg" style="width: 60%">
+											<h5 class="author text-theme-colored">by India Today</h5>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<img src="../images/india.jpg" width="100%">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="pt-5 pb-100">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<img src="img/icons/award.png" style="height: 120px;" />
+					<h1>AWARDS</h1>
+					<div class="box-1 text-center">
+						<p>She has been awarded for her work in Entrepreneurship, Success Coaching, Writing &amp; Speaking</p>
+						<br>
+						<div class="row" style="margin-top: 10px;">
+							<div class="col-md-4">
+								<img src="img/awards/1.jpg" style="width: 100%; height: auto;" />
+							</div>
+							<div class="col-md-4">
+								<img src="img/awards/2.jpg" style="width: 100%; height: auto;" />
+							</div>
+							<div class="col-md-4">
+								<img src="img/awards/3.jpg" style="width: 100%; height: auto;" />
+							</div>
+							<div class="col-md-4">
+								<img src="img/awards/4.jpg" style="width: 100%; height: auto;" />
+							</div>
+							<div class="col-md-4">
+								<img src="img/awards/5.jpg" style="width: 100%; height: auto;" />
+							</div>
+							<div class="col-md-4">
+								<img src="img/awards/6.jpg" style="width: 100%; height: auto;" />
+							</div>
+						</div>
+					</div>
+					<div style="margin-top: 30px;">
+						<a href="#iwantin" class="btn-enroll-3">Enrol Now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="price-tab" class="pt-6 pb-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class=" text-center">
+						<img src="images/icon11.png" width="10%">
+						<h1 class="title mb-0 font-oswald">
+						  <span><span style="color:#fd1a49">U</span>.<i>NLIMITED</i></span>
+						</h1>
+						<br>
+						<h2 class="subtitle mt-0">
+							Your membership pass to your personal transformation
+						</h2>
+						<br>
+					</div>
+				</div>
+			</div>
+			<div class="row" id="iwantin">
+				<div class="col-lg-6">
+					<div class="price-tab-box pricing-box-2">
+						<div class="box-header">
+							<h3 class="sale-price">Monthly Plan</h3>
+							<h1 class="sale-price">@ just INR 299</h1>
+							<p>Billed monthly || Limited&nbsp;<strong> Time</strong></p>
+						</div>
+						<div class="box-body">
+							<img src="img/icons/check.png" style="height: 22px;">
+							<h4>1 year membership</h4>
+							<br>
+							<img src="img/icons/check.png" style="height: 22px;">
+							<h4>52 Transformational Courses</h4>
+							<div class="meta-content">
+								<button class="button1" id="rz_button"> Enrol Now </button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="price-tab-box pricing-box-2">
+						<div class="box-header">
+							<h3 class="sale-price">Annual Plan</h3>
+							<h1 class="sale-price">@ INR 1990</h1>
+							<p>Billed One-time || Save <strong> 50%</strong></p>
+						</div>
+						<div class="box-body">
+							<img src="img/icons/check.png" style="height: 22px;">
+							<h4>1 year membership</h4>
+							<br>
+							<img src="img/icons/check.png" style="height: 22px;">
+							<h4>52 Transformational Courses</h4>
+							<div class="meta-content">
+									<form action="success.php?order=order_G2B2LRYiOaCmJV" method="POST"> 
+									<script
+										src="checkout.js"
+										data-key="rzp_live_o8QWgHitA6Nu9f"
+										data-amount="199000"
+										data-currency="INR"
+										data-buttontext="ENROL NOW"
+										data-name="Geetika Saigal"
+										data-description="One Time Payment 1990/-"
+										data-prefill.name=""
+										data-prefill.email=""
+										data-prefill.contact=""
+										data-theme.color="#F37254"
+										data-order_id="order_G2B2LRYiOaCmJV"
+									></script>
+									<input type="hidden" custom="Hidden Element" name="hidden">
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<style>
+		.carousel-wrap {
+		  margin: 90px auto;
+		  padding: 0 5%;
+		  width: 80%;
+		  position: relative;
+		}
+
+		/* fix blank or flashing items on carousel */
+		.owl-carousel .item {
+		  position: relative;
+		  z-index: 100; 
+		  -webkit-backface-visibility: hidden; 
+		}
+
+		/* end fix */
+		.owl-nav > div {
+		  margin-top: -26px;
+		  position: absolute;
+		  top: 50%;
+		  color: #cdcbcd;
+		}
+
+		.owl-nav i {
+		  font-size: 52px;
+		}
+
+		.owl-nav .owl-prev {
+		  left: -30px;
+		}
+
+		.owl-nav .owl-next {
+		  right: -30px;
+		}
+	</style>
+	<section class="testimonial-2 ptb-100">
+		<div class="container">
+			<div class="row text-center mb-5">
+				<div class="col-lg-12">
+					<h1 class="font-oswald">Here’s what other leaders are saying</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="owl-carousel owl-theme client-testimonial arrow-indicator owl-loaded owl-drag">
+						<div class="owl-stage-outer">
+							<div class="owl-stage">
+								<div class="owl-item active">
+									<div class="item">
+										<div class="testimonial-quote-wrap">
+											<div class="media author-info mb-3">
+												<div class="author-img">
+													<img src="../images/testimonial/2.jpg" alt="client" class="img-fluid ">
+												</div>
+												<div class="media-body">
+													<h4 class="mb-0">Dr. Popli<br/><i class="designation">-Rotary International</i></h4>
+												</div>
+											</div>
+											<div class="client-say">
+												<p>
+													<img src="img/icons/quote.png" alt="quote" class="img-fluid"> 
+													<b>a rare combination of self-confidence and humility</b> &nbsp;
+													<i class="fa fa-quote-right font-22 text-black"  style="top:0px"></i> 
+													<br>
+													Geetika’s Keynote Address was inspiring,
+													thought-provoking and set the right tone
+													for our Event. She radiated a rare
+													combination of self-confidence and
+													humility which instantly connected her to
+													the audience and kept them engaged till
+													the very end
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="owl-item">
+									<div class="item">
+										<div class="testimonial-quote-wrap">
+											<div class="media author-info mb-3">
+												<div class="author-img">
+													<img src="../images/testimonial/1.jpg" alt="client" class="img-fluid ">
+												</div>
+												<div class="media-body">
+													 <h4 class="font-weight-400 font-22 mt-20 Roboto-font">Mr. Pramod Patil<br/><i class="designation">-Principal, D.Y. Patil Institute of Technology, Pune</i></h4>
+												</div>
+											</div>
+											<div class="client-say">
+												 <p><img src="img/icons/quote.png" alt="quote" class="img-fluid">  
+												 <b>a 'woman of power' and
+													a true example of
+													an influential leader</b> &nbsp;
+												   
+													Ms. Geetika Saigal is a prolific speaker and
+													has great oratory skills, she portrays
+													herself with confidence and engages the
+													audience with her melodious voice. She is a
+													"woman of power" and a true example of an
+													influential leader. The way she connects
+													the audience with her life and imbibes
+													knowledge through it is truly phenomenal.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="owl-item ">
+									<div class="item">
+										<div class="testimonial-quote-wrap">
+											<div class="media author-info mb-3">
+												<div class="author-img">
+													<img src="../images/testimonial/3.jpg" alt="client" class="img-fluid ">
+												</div>
+												<div class="media-body">
+													 <h4 class="font-weight-400 font-22 mt-20 Roboto-font">Ms. Swati Sharma<br/><i class="designation">-Director - Shimla International Literature Festival &amp;  Director - Noida International Literature Festival</i></h4>
+												</div>
+											</div>
+											<div class="client-say">
+												 <p><img src="img/icons/quote.png" alt="quote" class="img-fluid">  
+												 <b>a true storyteller at
+													heart...leaves a
+													lasting impact on
+													her audience.</b> &nbsp;
+													<i class="fa fa-quote-right font-22 text-black"  style="top:0px"></i> 
+													<br>
+													I was so mesmerised by Geetika’s talk in
+													our first event, that I just had to invite her
+													again for our next one! She’s a true
+													storyteller at heart, who leverages her own
+													life experiences to elucidate each theme
+													such that it leaves a lasting impact on her
+													audience.</p>
+												   
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="owl-item ">
+									<div class="item">
+										<div class="testimonial-quote-wrap">
+											<div class="media author-info mb-3">
+												<div class="author-img">
+													<img src="../images/testimonial/4.jpg" alt="client" class="img-fluid ">
+												</div>
+												<div class="media-body">
+													 <h4 class="font-weight-400 font-22 mt-20 Roboto-font">Dr. Munish Jindal<br/><i class="designation">-Founder &amp; CEO, HoverRobotix & Founding President, MENTORx</i></h4>
+												</div>
+											</div>
+											<div class="client-say">
+												 <p><img src="img/icons/quote.png" alt="quote" class="img-fluid">  
+												<b>incredible thoughtprovoking
+													speakers in
+													the contemporary era</b> &nbsp;
+													<i class="fa fa-quote-right font-22 text-black"  style="top:0px"></i> 
+													<br>
+													GeetikaSaigal is one of the most incredible
+													thought-provoking speakers in the
+													contemporary era, inspiring the masses.</p>
+												   
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="owl-item ">
+									<div class="item">
+										<div class="testimonial-quote-wrap">
+											<div class="media author-info mb-3">
+												<div class="author-img">
+													<img src="../images/testimonial/5.jpg" alt="client" class="img-fluid ">
+												</div>
+												<div class="media-body">
+													 <h4 class="font-weight-400 font-22 mt-20 Roboto-font">Rahul Prigawat<br/><i class="designation">-NASSCOM 10,000 Startups</i></h4>
+												</div>
+											</div>
+											<div class="client-say">
+												 <p><img src="img/icons/quote.png" alt="quote" class="img-fluid">  
+												<b>master skills
+													to enable changes
+													in human life.</b> &nbsp;
+													<i class="fa fa-quote-right font-22 text-black"  style="top:0px"></i> 
+													<br>
+													Geetika is great author and story teller.
+													Her Enthusiasm on stage is remarkable.
+													She is the perfect combination of depth
+													mastership in her area. I Strongly
+													recommend Geetika with her master skills
+													to enable changes in human life.</p>
+												   
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="owl-item ">
+									<div class="item">
+										<div class="testimonial-quote-wrap">
+											<div class="media author-info mb-3">
+												<div class="author-img">
+													<img src="../images/testimonial/6.jpg" alt="client" class="img-fluid ">
+												</div>
+												<div class="media-body">
+													 <h4 class="font-weight-400 font-22 mt-20 Roboto-font">Sourjya Mohanty<br/><i class="designation">-Chief Operating Officer - Epic On TV Channel</i></h4>
+												</div>
+											</div>
+											<div class="client-say">
+												 <p><img src="img/icons/quote.png" alt="quote" class="img-fluid">  
+												 <b>full of energy,
+													entertainment and
+													mind-altering
+													knowledge</b> &nbsp;
+													<i class="fa fa-quote-right font-22 text-black"  style="top:0px"></i> 
+													<br>
+													Geetika has delivered what was by far the
+													best half an hour TEDx session which was
+													full of energy, entertainment and mindaltering
+													knowledge that in helps in setting
+													the stage for success.</p>
+												   
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="owl-item ">
+									<div class="item">
+										<div class="testimonial-quote-wrap">
+											<div class="media author-info mb-3">
+												<div class="author-img">
+													<img src="../images/testimonial/7.jpg" alt="client" class="img-fluid ">
+												</div>
+												<div class="media-body">
+													 <h4 class="font-weight-400 font-22 mt-20 Roboto-font">Major Mohammed Ali Shah<br/><i class="designation">-Award-winning Actor, Motivational & International TEDx Speaker</i></h4>
+												</div>
+											</div>
+											<div class="client-say">
+												 <p><img src="img/icons/quote.png" alt="quote" class="img-fluid">  
+												 <b>full of energy,
+													entertainment and
+													mind-altering
+													knowledge</b> &nbsp;
+													<i class="fa fa-quote-right font-22 text-black"  style="top:0px"></i> 
+													<br>
+													Geetika has delivered what was by far the
+													best half an hour TEDx session which was
+													full of energy, entertainment and mindaltering
+													knowledge that in helps in setting
+													the stage for success.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="owl-item ">
+									<div class="item">
+										<div class="testimonial-quote-wrap">
+											<div class="media author-info mb-3">
+												<div class="author-img">
+													<img src="../images/testimonial/8.jpg" alt="client" class="img-fluid ">
+												</div>
+												<div class="media-body">
+													 <h4 class="font-weight-400 font-22 mt-20 Roboto-font">Ms. Seema Saxena<br/><i class="designation">-Managing Director - Jashn Literature Carnival</i></h4>
+												</div>
+											</div>
+											<div class="client-say">
+												 <p><img src="img/icons/quote.png" alt="quote" class="img-fluid">  
+												 <b>She lived up to her
+													trademark style as an
+													author and speaker,
+													candid & honest...</b> &nbsp;
+													<i class="fa fa-quote-right font-22 text-black"  style="top:0px"></i> 
+													<br>
+													Geetika spoke at our event on The Secret
+													Sauce for Success. Her talk was as
+													interesting as the topic! She lived up to her
+													trademark style as an author and speaker,
+													candid & honest, inspiring the audience
+													that connected with her throughout. Look
+													forward to having her over again.</p>
+												   
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="owl-item ">
+									<div class="item">
+										<div class="testimonial-quote-wrap">
+											<div class="media author-info mb-3">
+												<div class="author-img">
+													<img src="../images/testimonial/9.jpg" alt="client" class="img-fluid ">
+												</div>
+												<div class="media-body">
+													 <h4 class="font-weight-400 font-22 mt-20 Roboto-font">Mr. Sunil David<br/><i class="designation">-Regional Director - AT&T (India & ASEAN Region) Member of IET, FICCI, NASSCOM</i></h4>
+												</div>
+											</div>
+											<div class="client-say">
+												 <p><img src="img/icons/quote.png" alt="quote" class="img-fluid">  
+												 <b>A good orator needs
+													to have...Geetika
+													displayed all of these
+													with aplomb and made
+													a huge impression .</b> &nbsp;
+													<i class="fa fa-quote-right font-22 text-black"  style="top:0px"></i> 
+													<br>
+													A good orator needs to have Poise , Great
+													flow of thought , Eye contact with the
+													audience , Positive body language and
+													most importantly the right and meaningful
+													content that can keep the audience
+													engaged and interested . Geetika displayed
+													all of these with aplomb and made a huge
+													impression .</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="owl-item ">
+									<div class="item">
+										<div class="testimonial-quote-wrap">
+											<div class="media author-info mb-3">
+												<div class="author-img">
+													<img src="../images/testimonial/10.jpg" alt="client" class="img-fluid ">
+												</div>
+												<div class="media-body">
+													 <h4 class="font-weight-400 font-22 mt-20 Roboto-font">Abhradita Chatarjee Nahvi<br/><i class="designation">-Professor & Faculty Head - St. Miras College</i></h4>
+												</div>
+											</div>
+											<div class="client-say">
+												 <p><img src="img/icons/quote.png" alt="quote" class="img-fluid">  
+												 <b>In her talk ‘Reviving
+													Reading’...she surely
+													converted many in
+													the room into future
+													avid readers!</b> &nbsp;
+													<i class="fa fa-quote-right font-22 text-black"  style="top:0px"></i> 
+													<br>
+												   
+													We were humbled to have Geetika over for
+													the TEDxStMirasCollege Event. She is
+													very down to earth and a loving person
+													which is evident from the moment we met.
+													In her talk ‘Reviving Reading’, she
+													effortlessly connected with the audience,
+													leaving hem motivated and inspired. She
+													surely converted many in the room into
+													future avid readers! Wishing her new
+													heights always.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="owl-item ">
+									<div class="item">
+										<div class="testimonial-quote-wrap">
+											<div class="media author-info mb-3">
+												<div class="author-img">
+													<img src="../images/testimonial/11.jpg" alt="client" class="img-fluid ">
+												</div>
+												<div class="media-body">
+													 <h4 class="font-weight-400 font-22 mt-20 Roboto-font">-Dr. Shyam S.<br/><i class="designation">Institute of Management Technology, Nagpur</i></h4>
+												</div>
+											</div>
+											<div class="client-say">
+												 <p><img src="img/icons/quote.png" alt="quote" class="img-fluid">  
+												  <span class=" font-26 text-center ">
+													  <i class="fa fa-quote-left font-22 text-black"  style="float: left; top:0px"></i> &nbsp;
+													  <b>arresting and
+													thoughtful speech that
+													opened up new ways of
+													thinking and
+													responding.</b> &nbsp;
+													<i class="fa fa-quote-right font-22 text-black"  style="top:0px"></i> 
+													<br>
+													</span>
+													Geetika's Keynote session at our
+													institute 'Beyond B-School Learnings'
+													was an arresting and thoughtful speech
+													that opened up new ways of thinking and
+													responding.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="owl-item ">
+									<div class="item">
+										<div class="testimonial-quote-wrap">
+											<div class="media author-info mb-3">
+												<div class="author-img">
+													<img src="../images/testimonial/rajdeep.jpg" alt="client" class="img-fluid ">
+												</div>
+												<div class="media-body">
+													 <h4 class="font-weight-400 font-22 mt-20 Roboto-font">Rajdeep Sardesai<br/><i class="designation">Journalist & Author</i></h4>
+												</div>
+											</div>
+											<div class="client-say">
+												 <p><img src="img/icons/quote.png" alt="quote" class="img-fluid">  
+												  <span class=" font-26 text-center ">
+													  <i class="fa fa-quote-left font-22 text-black"  style="float: left; top:0px"></i> &nbsp;
+													  <b>“A self-help book like no other: soul-stirring, thought provoking, an unapologetic account of what brings you down & how to get back up.”.</b> &nbsp;
+													<i class="fa fa-quote-right font-22 text-black"  style="top:0px"></i> 
+													<br>
+													</span></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="owl-item ">
+									<div class="item">
+										<div class="testimonial-quote-wrap">
+											<div class="media author-info mb-3">
+												<div class="author-img">
+													<img src="../images/testimonial/airbnb.jpg" alt="client" class="img-fluid ">
+												</div>
+												<div class="media-body">
+													 <h4 class="font-weight-400 font-22 mt-20 Roboto-font">Amanpreet Bajaj<br/><i class="designation">Fortune 40 Under 40 & Country Manager – Airbnb</i></h4>
+												</div>
+											</div>
+											<div class="client-say">
+												 <p><img src="img/icons/quote.png" alt="quote" class="img-fluid">  
+												 <span class=" font-26 text-center ">
+													  <i class="fa fa-quote-left font-22 text-black"  style="float: left; top:0px"></i> &nbsp;
+													  <b>A breath of fresh air in self-help genre; deep yet funny;
+														revolutionary and driven by real life situations..</b> &nbsp;
+													<i class="fa fa-quote-right font-22 text-black"  style="top:0px"></i> 
+													<br>
+													</span></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="owl-item ">
+									<div class="item">
+										<div class="testimonial-quote-wrap">
+											<div class="media author-info mb-3">
+												<div class="author-img">
+													<img src="../images/testimonial/abhishek.jpg" alt="client" class="img-fluid ">
+												</div>
+												<div class="media-body">
+													 <h4 class="font-weight-400 font-22 mt-20 Roboto-font">Abhishek Mishra<br/><i class="designation">Ultraman & Ironman Triathlete</i></h4>
+												</div>
+											</div>
+											<div class="client-say">
+												 <p><img src="img/icons/quote.png" alt="quote" class="img-fluid">  
+												 <span class=" font-26 text-center ">
+													  <i class="fa fa-quote-left font-22 text-black"  style="float: left; top:0px"></i> &nbsp;
+													  <b>If you feel stuck, this compelling text will be the catalyst to excite you and get you moving, nay sprinting!…in Life.</b> &nbsp;
+													<i class="fa fa-quote-right font-22 text-black"  style="top:0px"></i> 
+													<br>
+													</span></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="owl-nav">
+							<button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button>
+						</div>
+						<div class="owl-dots disabled"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="ptb-100 gray-light-bg" >
+		<div class="container">
+			<div class="row  justify-content-center mb-5 text-center">
+				<h1>LOVE FROM STUDENTS</h1>
+				<h3 class="subtitle ">To take you on your Transformational Journey, each course will teach you a different aspect to develop your Mindset, Skillset &amp; Habits, such as:</h3>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<img src="images/1.jpg" class="stu">
+				</div>
+				<div class="col-lg-4">
+					<img src="images/2.jpg" class="stu">
+				</div>
+				<div class="col-lg-4">
+					<img src="images/12.jpg" class="stu">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<img src="images/14.jpg" class="stu">
+				</div>
+				<div class="col-lg-4">
+					<img src="images/3.jpg" class="stu">
+				</div>
+				<div class="col-lg-4">
+					<img src="images/8.jpg" class="stu">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<img src="images/11.jpg" class="stu">
+				</div>
+				<div class="col-lg-4">
+					<img src="images/7.jpg" class="stu">
+				</div>
+				<div class="col-lg-4">
+					<img src="images/2.jpg" class="stu">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<img src="images/9.jpg" class="stu">
+				</div>
+				<div class="col-lg-4">
+					<img src="images/13.jpg" class="stu">
+				</div>
+				<div class="col-lg-4">
+					<img src="images/4.jpg" class="stu">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="sec-timer" style="padding-top: 50px; padding-bottom: 50px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="text-center">
+						<div id="offer-timer-2" class="offer-timer">
+							<div>
+								<span class="days"></span>
+								<div class="smalltext">Days</div>
+							</div>
+							<div>
+								<span class="hours"></span>
+								<div class="smalltext">Hours</div>
+							</div>
+							<div>
+								<span class="minutes"></span>
+								<div class="smalltext">Minutes</div>
+							</div>
+							<div>
+								<span class="seconds"></span>
+								<div class="smalltext">Seconds</div>
+							</div>
+						</div>
+					</div>
+					<br>
+					<h1 class="font-oswald">The above offer is worth over <span class="color-1">Rs. 1 LAC +</span></h1>
+					<br>
+					<h2 class="subtitle"><a href="#iwantin" class="color-2"><u>Click Now</u></a> to get it at <span class="color-1" style="font-size: 3.5rem;">98% OFF!</span></h2>
+					<br>
+					<a href="#iwantin" class="btn-enroll-2">Click to Enrol</a>
+					<br>
+					<br>
+					<h3>You will get an Email which has your <span class="color-1">Access Link to your Private Panel</span><h3>
+					<h3><i>Your Welcome Pack in the Panel will have:</i><h3>
+					<div class="feature-box-1">
+						<h3>4 e-Books to get inspired</h3>
+						<h4><img src="img/icons/check.png" /> Are YOU?</h4>
+						<h4><img src="img/icons/check.png" /> Communication is Key</h4>
+						<h4><img src="img/icons/check.png" /> Mindset Matters</h4>
+						<h4><img src="img/icons/check.png" /> Productivity Hacks!</h4>
+						<h3>Course 1 - The Focus Game</h3>
+						<h4><img src="img/icons/check.png" /> Decoding Focus</h4>
+						<h4><img src="img/icons/check.png" /> Busting the Myth</h4>
+						<h4><img src="img/icons/check.png" /> How to Build FOCUS - World class techniques to get your Super-Focussed in Life</h4>
+						<h4><img src="img/icons/check.png" /> 5 Step Process to get Laser Focus</h4>
+						<h3>Course 2 - Train the Brain</h3>
+						<h4><img src="img/icons/check.png" /> World-class techniques to train your brain</h4>
+						<h4><img src="img/icons/check.png" /> Learn the Art of Deep Work Mode</h4>
+						<h4><img src="img/icons/check.png" /> 7 Steps to to turn your Brain into Beast Mode</h4>
+						<h3>50 More Courses</h3>
+						<h4><img src="img/icons/check.png" /> One Every Monday</h4>
+						<h4><img src="img/icons/check.png" /> A Brand New Course gets added automatically to your Panel!</h4>
+						<h3>52 Courses</h3>
+						<h4><img src="img/icons/check.png" /> 52 weeks = 52 Courses!</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="pt-5 pb-5 bg-2">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<br>
+					<p class="text-white ft-25">Learn anytime, anywhere, at your own pace</p>
+					<p class="text-white ft-25" style="color: #18fd9e ! important; font-weight: 700; font-size: 3.5rem; line-height: 3.8rem; margin-bottom: 30px;">Lifetime Access to all courses</p>
+					<div class="text-white" style="font-size: 1.2rem;">
+						Get Invites to LIVE Sessions in every week by Geetika
+						<br>
+						<i>
+							You can’t say NO to this
+							<br>
+							You can’t say NO to your future
+						</i>
+					</div>
+					<br>
+					<div><a href="#iwantin" class="btn-enroll-2">Enrol Now</a></div>
+					<div style="margin-top: 20px;"><p>Or regret later - Prices WILL soon go up.</p></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer-section">
+		<div class="footer-bottom pt-4 pb-4" style="background: #0c0c0c;">
+			<div class="container">
+				<div class="row text-center justify-content-center">
+					<div class="col-md-6 col-lg-5"><p class="copyright-text pb-0 mb-0">Copyright © 2020 Geetika Saigal. All Rights Reserved
+						<a href="#"></a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script>
+		function getTimeRemaining(endtime) {
+			const total = Date.parse(endtime) - Date.parse(new Date());
+			const seconds = Math.floor((total / 1000) % 60);
+			const minutes = Math.floor((total / 1000 / 60) % 60);
+			const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
+			const days = Math.floor(total / (1000 * 60 * 60 * 24));
+			return {
+				total,
+				days,
+				hours,
+				minutes,
+				seconds
+			};
+		}
+		function initializeClock(id, endtime) {
+			const clock = document.getElementById(id);
+			const daysSpan = clock.querySelector('.days');
+			const hoursSpan = clock.querySelector('.hours');
+			const minutesSpan = clock.querySelector('.minutes');
+			const secondsSpan = clock.querySelector('.seconds');
+			function updateClock() {
+				const t = getTimeRemaining(endtime);
+				daysSpan.innerHTML = t.days;
+				hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+				minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+				secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+				if (t.total <= 0) {
+					clearInterval(timeinterval);
+				}
+			}
+			updateClock();
+			const timeinterval = setInterval(updateClock, 1000);
+		}
+		// const deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+		const deadline = new Date(Date.parse(new Date()) + 34 * 48 * 48 * 1000);
+		initializeClock('offer-timer-1', deadline);
+		initializeClock('offer-timer-2', deadline);
+	</script>
+	<script src="checkout.js"></script>
+			<script>
+		var options = {
+			"key": "rzp_live_o8QWgHitA6Nu9f",
+			"amount": "29900",
+			"currency": "INR",
+			"subscription_id": "sub_G2B2Mbt9FWdAq6",
+			"order_id": "order_G2B2M12MjIz5lT",
+			"name": "Geetika Saigal",
+			"description": "Monthly Subscription",
+			"image": "https://cdn.razorpay.com/logos/Easmf9wrZarBUW_medium.jpg",			
+			"callback_url": "https://geetikasaigal.com/membership/success.php?order=order_G2B2M12MjIz5lT",
+			"theme": {
+				"color": "#F37254"
+			}
+		};
+		document.getElementById("rz_button").onclick = function(e){
+			var techhawa= new Razorpay(options);
+			techhawa.open();
+			e.preventDefault();
+		}
+		var yoptions = {
+			"key": "rzp_live_o8QWgHitA6Nu9f",
+			"subscription_id": "sub_FgN4GdoLTway5m",
+			"name": "Shristy Thawait",
+			"description": "Demo",
+			"image": "",
+			"handler": function (response){
+				
+			},
+			"theme": {
+				"color": "#00a1f1"
+			}
+		};
+		var ytechhawa= new Razorpay(yoptions);
+		document.getElementById("yrz_button").onclick = function(e){
+			ytechhawa.open();
+			e.preventDefault();
+		}
+	</script>
+	<script src="js/jquery-3.5.0.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.mb.YTPlayer.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.countdown.min.js"></script>
+	<script src="js/validator.min.js"></script>
+	<script src="js/scripts.js?1"></script>
+</body>
+</html>
