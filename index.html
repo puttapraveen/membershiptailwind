@@ -23,8 +23,8 @@
     <link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
     <link rel="stylesheet" href="css/custom.css?2974">
-
-
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="/resources/demos/style.css">
 	<style type="text/css">
 		.razorpay-payment-button {
 			min-width: 300px;
@@ -1646,7 +1646,7 @@
 	<section class="promo-section pb-24 pt-24" style="background: #4a626e;">
         <div class="containe flex flex-col items-center">
 			<div class="flex flex-col lg:flex-row">
-				<div class="lg:w-1/2">
+				<div class="w-full">
 					<h1 class="text-3xl mt-2 pr-4 pl-4 lg:pr-0 lg:pl-0 font-bold text-white">Course 5 - 3rd Monday</h1>
                 </div>
             </div>
@@ -1677,7 +1677,7 @@
 	<section class="promo-section pb-24 pt-24" style="background: #b95495;">
         <div class="containe flex flex-col items-center">
 			<div class="flex flex-col lg:flex-row">
-				<div class="lg:w-1/2">
+				<div class="w-full">
 				<h1 class="text-3xl pr-4 pl-4 lg:pr-0 lg:pl-0 mt-2 font-bold text-white">Course 6 - 4th Monday</h1>
                 </div>
             </div>
@@ -1976,102 +1976,106 @@
 			</div>
 		</div>
 	</section>
-	<section class="ptb-100" style="background: #f3f3f3;">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<h1 class="font-oswald">Featured In</h1>
+	<section class="pt-12 pb-12 lg:pt-24 lg:pb-32" style="background: #f3f3f3;">
+		<div class="containr">
+			<div class="flex flex-col">
+				<div class="w-full text-center">
+					<h1 class="font-oswald text-4xl lg:text-6xl font-semibold">Featured In</h1>
 					<br>
 				</div>
-				<div class="col-md-6">
+				<div class="w-full lg:pl-16 mb-8 lg:pr-16 flex flex-col lg:flex-row">
+				<div class="w-full lg:w-1/2 pr-3 pl-3 lg:pl-0 lg:pr-4">
 					<div class="card-body1 height-100">
-						<div class="row">
-							<div class="col-md-6">
+						<div class="flex flex-col lg:flex-row">
+							<div class="lg:w-1/2">
 								<div class="pd-mag">
 									<div class="comment">
-										<p class="font-28 text-black Oswald-font"><i>a breath of fresh air in the literary world”</i></p>
+										<p class="p-6 mt-2 text-black Oswald-font"><i>a breath of fresh air in the literary world”</i></p>
 									</div>
-									 <div class="content mt-20">
-										<div class="patient-details text-left pull-left mr-20 mt-10">
-											<img src="../images/deccan.jpg" style="width: 30%">
-											<h5 class="author text-theme-colored">by Deccan Chronicle</h5>                                             
+									 <div class="content ml-6">
+										<div class="patient-details text-left mr-20">
+											<img src="./dist/img/deccan.jpg" style="width: 30%">
+											<h5 class="author text-xl font-semibold text-theme-colored">by Deccan Chronicle</h5>                                             
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6">
-								<img src="../images/deccan1.jpg" width="100%">
+							<div class="lg:w-1/2 mb-6">
+								<img src="./dist/img/deccan1.jpg" width="100%">
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="w-full lg:w-1/2 mt-10 lg:mt-0 pr-3 pl-3 lg:pl-0 lg:pr-4">
 					<div class="card-body1 height-100">
-						<div class="row">
-							<div class="col-md-6">
+						<div class="flex flex-col lg:flex-row">
+							<div class="lg:w-1/2">
 								<div class="pd-mag">
 									<div class="comment">
-										<p class="font-28 text-black Oswald-font"><i>Making waves with her unconventional writing style and larger-than-life persona”</i></p>
+										<p class="p-6 mt-2 text-black Oswald-font"><i>a breath of fresh air in the literary world”</i></p>
 									</div>
-									<div class="content mt-20">
-										<div class="patient-details text-right pull-right mr-20 mt-10">
-											<img src="../images/thrive-global-logo.png" width="100%">
-											<h5 class="author text-theme-colored">by Arianna Huffington’s Thrive Global</h5>
+									 <div class="content ml-6">
+										<div class="patient-details text-left mr-20">
+											<img src="./dist/img/deccan.jpg" style="width: 30%">
+											<h5 class="author text-xl font-semibold text-theme-colored">by Deccan Chronicle</h5>                                             
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6">
-								<img src="../images/tri.jpg" width="100%">
+							<div class="lg:w-1/2 mb-6">
+								<img src="./dist/img/deccan1.jpg" width="100%">
 							</div>
 						</div>
 					</div>
+				</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-6">
+	
+				<div class="w-full lg:pl-16 mb-8 lg:pr-16 flex flex-col lg:flex-row">
+				<div class="w-full lg:w-1/2 pr-3 pl-3 lg:pl-0 lg:pr-4">
 					<div class="card-body1 height-100">
-						<div class="row">
-							<div class="col-md-6">
+						<div class="flex flex-col lg:flex-row">
+							<div class="lg:w-1/2">
 								<div class="pd-mag">
 									<div class="comment">
-										<p class="font-28 text-black Oswald-font"><i>Deep yet humorous, soulful yet brutally honest, Geetika Saigal is jazzing up the self-help genre"</i></p>
+										<p class="p-6 mt-2 text-black Oswald-font"><i>a breath of fresh air in the literary world”</i></p>
 									</div>
-									<div class="content mt-20">
-										<div class="patient-details text-left pull-left mr-20 mt-10">
-											<img src="../images/yahoo.png" style="width: 20%">
-											<h5 class="author text-theme-colored ">by Yahoo News</h5>                                             
+									 <div class="content ml-6">
+										<div class="patient-details text-left mr-20">
+											<img src="./dist/img/deccan.jpg" style="width: 30%">
+											<h5 class="author text-xl font-semibold text-theme-colored">by Deccan Chronicle</h5>                                             
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6">
-								<img src="../images/know_more.png" width="100%">
+							<div class="lg:w-1/2 mb-6">
+								<img src="./dist/img/deccan1.jpg" width="100%">
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="w-full lg:w-1/2 mt-10 lg:mt-0 pr-3 pl-3 lg:pl-0 lg:pr-4">
 					<div class="card-body1 height-100">
-						<div class="row">
-							<div class="col-md-6">
+						<div class="flex flex-col lg:flex-row">
+							<div class="lg:w-1/2">
 								<div class="pd-mag">
 									<div class="comment">
-										<p class="font-28 text-black Oswald-font"><i>Meet the Dot Com Divas"</i></p>
+										<p class="p-6 mt-2 text-black Oswald-font"><i>a breath of fresh air in the literary world”</i></p>
 									</div>
-									<div class="content mt-20">                                            
-										<div class="patient-details text-left pull-left mr-20 mt-10">
-											<img src="../images/indiatoday2.jpg" style="width: 60%">
-											<h5 class="author text-theme-colored">by India Today</h5>
+									 <div class="content ml-6">
+										<div class="patient-details text-left mr-20">
+											<img src="./dist/img/deccan.jpg" style="width: 30%">
+											<h5 class="author text-xl font-semibold text-theme-colored">by Deccan Chronicle</h5>                                             
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6">
-								<img src="../images/india.jpg" width="100%">
+							<div class="lg:w-1/2 mb-6">
+								<img src="./dist/img/deccan1.jpg" width="100%">
 							</div>
 						</div>
 					</div>
+				</div>
 				</div>
 			</div>
 		</div>
@@ -2823,6 +2827,292 @@
 			</div>
 		</div>
 	</section>
+
+
+	<section class="sec-timer" style="padding-top: 50px; padding-bottom: 50px; border-top: 1px solid #e6e6e6; background: #fbfbfb;">
+		<div class="container">
+			<div class="row mb-5 text-center">
+				<div class="col-md-12">
+				<h1>FAQ</h1>
+				<h3>Frequently Asked Questions</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div id="accordion" class="accordion md-accordion accordion-blocks" id="faq1" role="tablist" aria-multiselectable="true">
+							<h3>Will I really get 52 Courses?</h>			
+								<div class="card-body">
+									<p> Yes! You will get 52 Courses during the 1 Year Membership period.</p>
+								</div>
+						</div>
+						<div class="card">
+							<h1>Will I really get 52 Courses?</h1>			
+								<div class="card-body">
+									Yes! You will get 52 Courses during the 1 Year Membership period.
+								</div>
+						</div>
+						<div class="card">
+							<h1>Will I really get 52 Courses?</h1>			
+								<div class="card-body">
+									Yes! You will get 52 Courses during the 1 Year Membership period.
+								</div>
+						</div>
+
+						</div>
+						<div class="card">
+							<div class="card-header" role="tab" id="hque2">
+								<a data-toggle="collapse" data-parent="#faq1" href="#que2" aria-expanded="true" aria-controls="que2" class="collapsed">
+									<div class="que-head">
+										<div class="float-left">
+											<span class="btn btn-info btn-sm mr-3" type="button">02</span>
+										</div>								
+										<h5 class="mt-1 mb-0">
+											<span>Will I get Lifetime Access to the courses or for 1 year?</span>
+											<i class="fas fa-angle-down rotate-icon"></i>
+										</h5>
+									</div>
+								</a>
+							</div>
+							<div id="que2" class="collapse" role="tabpanel" aria-labelledby="hque2" data-parent="#faq1">
+								<div class="card-body">
+									You will get Lifetime Access to all 52 courses!
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" role="tab" id="hque3">
+								<a data-toggle="collapse" data-parent="#faq1" href="#que3" aria-expanded="true" aria-controls="que3" class="collapsed">
+									<div class="que-head">
+										<div class="float-left">
+											<span class="btn btn-info btn-sm mr-3" type="button">03</span>
+										</div>								
+										<h5 class="mt-1 mb-0">
+											<span>Can I renew the Membership after 1 year?</span>
+											<i class="fas fa-angle-down rotate-icon"></i>
+										</h5>
+									</div>
+								</a>
+							</div>
+							<div id="que3" class="collapse" role="tabpanel" aria-labelledby="hque3" data-parent="#faq1">
+								<div class="card-body">
+									Yes, surely. After your 1 year membership is over, you can renew it for another year, so that you can continue to get NEW content, courses, learnings and privileges. For some reason, even if you don’t renew, you will still continue to get Lifetime Access to the 52 courses.
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" role="tab" id="hque4">
+								<a data-toggle="collapse" data-parent="#faq1" href="#que4" aria-expanded="true" aria-controls="que4" class="collapsed">
+									<div class="que-head">
+										<div class="float-left">
+											<span class="btn btn-info btn-sm mr-3" type="button">04</span>
+										</div>								
+										<h5 class="mt-1 mb-0">
+											<span>Will I get a Certificate?</span>
+											<i class="fas fa-angle-down rotate-icon"></i>
+										</h5>
+									</div>
+								</a>
+							</div>
+							<div id="que4" class="collapse" role="tabpanel" aria-labelledby="hque4" data-parent="#faq1">
+								<div class="card-body">
+									Yes. There are 3 Membership Plans on offer. All are for 1 Year membership. All come with certificates as mentioned below:
+									<ul style="list-style-type: square; padding-left: 20px;">
+										<li>STAR Membership - 1 Certificate of Program Completion (at the end of the year)</li>
+										<li>SUPERSTAR Membership - 1 Certificate of Program Completion (at the end of the year)</li>
+										<li>ROCKSTAR Membership - 1 Certificate of Program Completion (at the end of the year) + 52 Certificate of Completion (at the end of every completed Course).</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" role="tab" id="hque5">
+								<a data-toggle="collapse" data-parent="#faq1" href="#que5" aria-expanded="true" aria-controls="que5" class="collapsed">
+									<div class="que-head">
+										<div class="float-left">
+											<span class="btn btn-info btn-sm mr-3" type="button">05</span>
+										</div>								
+										<h5 class="mt-1 mb-0">
+											<span>Is there any eligibility criteria for the certificate?</span>
+											<i class="fas fa-angle-down rotate-icon"></i>
+										</h5>
+									</div>
+								</a>
+							</div>
+							<div id="que5" class="collapse" role="tabpanel" aria-labelledby="hque5" data-parent="#faq1">
+								<div class="card-body">
+									<ul style="list-style-type: square; padding-left: 20px;">
+										<li>You are ASSURED of the Program Completion Certificate which will automatically be emailed to you once you complete the year.</li>
+										<li>For Individual Course Completion Certificates, you simply have to complete the course ie. watch all the video lessons in the course and click the ‘complete’ button. That’s it!</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" role="tab" id="hque6">
+								<a data-toggle="collapse" data-parent="#faq1" href="#que6" aria-expanded="true" aria-controls="que6" class="collapsed">
+									<div class="que-head">
+										<div class="float-left">
+											<span class="btn btn-info btn-sm mr-3" type="button">06</span>
+										</div>								
+										<h5 class="mt-1 mb-0">
+											<span>I have a full-time job. Is there any fixed time to do the courses?</span>
+											<i class="fas fa-angle-down rotate-icon"></i>
+										</h5>
+									</div>
+								</a>
+							</div>
+							<div id="que6" class="collapse" role="tabpanel" aria-labelledby="hque6" data-parent="#faq1">
+								<div class="card-body">
+									No problem. You can access the Courses ANYTIME, during the day or night, 24*7.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="accordion md-accordion accordion-blocks" id="faq2" role="tablist" aria-multiselectable="true">
+						<div class="card">
+							<div class="card-header" role="tab" id="hque7">
+								<a data-toggle="collapse" data-parent="#faq2" href="#que7" aria-expanded="true" aria-controls="que7" class="collapsed">
+									<div class="que-head">
+										<div class="float-left">
+											<span class="btn btn-info btn-sm mr-3" type="button">07</span>
+										</div>								
+										<h5 class="mt-1 mb-0">
+											<span>Is there a fixed time limit I have to complete each course in?</span>
+											<i class="fas fa-angle-down rotate-icon"></i>
+										</h5>
+									</div>
+								</a>
+							</div>
+							<div id="que7" class="collapse" role="tabpanel" aria-labelledby="hque7" data-parent="#faq2">
+								<div class="card-body">
+									No, not at all. Every person has their own speed of learning. All courses are SELF-PACED - that means you can do them as slow or as fast as you want. 
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" role="tab" id="hque8">
+								<a data-toggle="collapse" data-parent="#faq2" href="#que8" aria-expanded="true" aria-controls="que8" class="collapsed">
+									<div class="que-head">
+										<div class="float-left">
+											<span class="btn btn-info btn-sm mr-3" type="button">08</span>
+										</div>								
+										<h5 class="mt-1 mb-0">
+											<span>How often can I access the same course?</span>
+											<i class="fas fa-angle-down rotate-icon"></i>
+										</h5>
+									</div>
+								</a>
+							</div>
+							<div id="que8" class="collapse" role="tabpanel" aria-labelledby="hque8" data-parent="#faq2">
+								<div class="card-body">
+									Any number of times. There is NO LIMIT.
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" role="tab" id="hque9">
+								<a data-toggle="collapse" data-parent="#faq2" href="#que9" aria-expanded="true" aria-controls="que9" class="collapsed">
+									<div class="que-head">
+										<div class="float-left">
+											<span class="btn btn-info btn-sm mr-3" type="button">09</span>
+										</div>								
+										<h5 class="mt-1 mb-0">
+											<span>How will I attend the LIVE sessions by Geetika?</span>
+											<i class="fas fa-angle-down rotate-icon"></i>
+										</h5>
+									</div>
+								</a>
+							</div>
+							<div id="que9" class="collapse" role="tabpanel" aria-labelledby="hque9" data-parent="#faq2">
+								<div class="card-body">
+									You will receive the Invites &amp; Access Links on your email. We also send reminder Emails &amp; SMS, so you don't miss out at the last minute.
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" role="tab" id="hque10">
+								<a data-toggle="collapse" data-parent="#faq2" href="#que10" aria-expanded="true" aria-controls="que10" class="collapsed">
+									<div class="que-head">
+										<div class="float-left">
+											<span class="btn btn-info btn-sm mr-3" type="button">10</span>
+										</div>								
+										<h5 class="mt-1 mb-0">
+											<span>Can I ask Geetika any doubts I have in the courses?</span>
+											<i class="fas fa-angle-down rotate-icon"></i>
+										</h5>
+									</div>
+								</a>
+							</div>
+							<div id="que10" class="collapse" role="tabpanel" aria-labelledby="hque10" data-parent="#faq2">
+								<div class="card-body">
+									Yes. Despite a packed schedule &amp; heavy demands on her time, Geetika is committed to her mission to ‘Help You, Help Yourself'. There are multiple ways to reach her:
+									<ul>
+										<li>You can use the ‘Comment’ facility below every Video Lesson, to ask her any doubt, or share your personal experience or express your delight! Geetika herself responds to each comment.</li>
+										<li>She also conducts LIVE AMA Sessions (Ask-Me-Anything), usually on Wednesdays, so you can ask her during the LIVE sessions itself.</li>
+										<li>If you wish you can also email to her directly.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" role="tab" id="hque11">
+								<a data-toggle="collapse" data-parent="#faq2" href="#que11" aria-expanded="true" aria-controls="que11" class="collapsed">
+									<div class="que-head">
+										<div class="float-left">
+											<span class="btn btn-info btn-sm mr-3" type="button">11</span>
+										</div>								
+										<h5 class="mt-1 mb-0">
+											<span>I want to Enrol! What will happen after I make the payment?</span>
+											<i class="fas fa-angle-down rotate-icon"></i>
+										</h5>
+									</div>
+								</a>
+							</div>
+							<div id="que11" class="collapse" role="tabpanel" aria-labelledby="hque11" data-parent="#faq2">
+								<div class="card-body">
+									You will soon receive an Email, asking you to ‘Confirm Your Account’. As soon as you click the link &amp; create your own login password, you will get INSTANT ACCESS to your Private Panel! 
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" role="tab" id="hque12">
+								<a data-toggle="collapse" data-parent="#faq2" href="#que12" aria-expanded="true" aria-controls="que12" class="collapsed">
+									<div class="que-head">
+										<div class="float-left">
+											<span class="btn btn-info btn-sm mr-3" type="button">12</span>
+										</div>								
+										<h5 class="mt-1 mb-0">
+											<span>What will I receive instantly in my panel upon sign-up?</span>
+											<i class="fas fa-angle-down rotate-icon"></i>
+										</h5>
+									</div>
+								</a>
+							</div>
+							<div id="que12" class="collapse" role="tabpanel" aria-labelledby="hque12" data-parent="#faq2">
+								<div class="card-body">
+									In your Panel you will find:
+									<ul>
+										<li>The Welcome Pack of 4 e-Books.</li>
+										<li>Course 1 - The Focus Game.</li>
+										<li>Course 2 - Train the Brain.</li>
+										<li>Every Monday, a brand new Course will be added to your Panel!</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
 	<section class="pt-5 pb-5 bg-black">
 		<div class="contaier">
 			<div class="flex">
